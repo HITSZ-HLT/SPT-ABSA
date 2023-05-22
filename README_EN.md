@@ -8,7 +8,7 @@ This repository releases the code of the following paper:
 - Authors: Yice Zhang, Yifan Yang, Bin Liang, Shiwei Chen, Bing Qin, and Ruifeng Xu
 - coference: ACL-2023 Finding (Long)
 
-Model weight can be found at [https://huggingface.co/zhang-yice/spt-absa-bert-400k](https://huggingface.co/zhang-yice/spt-absa-bert-400k)。
+Model weight can be found at [https://huggingface.co/zhang-yice/spt-absa-bert-400k](https://huggingface.co/zhang-yice/spt-absa-bert-400k).
 
 ### What Did We Do?
 
