@@ -1,3 +1,5 @@
+[**中文说明**](https://github.com/HITSZ-HLT/SPT-ABSA/) | [**English**](https://github.com/HITSZ-HLT/SPT-ABSA/blob/master/README_EN.md)
+
 # SPT-ABSA
 
 本仓库开源了以下论文的代码：
