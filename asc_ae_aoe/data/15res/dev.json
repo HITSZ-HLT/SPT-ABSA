@@ -1,0 +1,5423 @@
+[
+  {
+    "tokens": "['avoid', 'this', 'place', '!']",
+    "aspects": [
+      [
+        2,
+        3,
+        "NEG",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['avoid']"
+      ]
+    ],
+    "ID": 0,
+    "sentence": "avoid this place !"
+  },
+  {
+    "tokens": "['iv', '##e', 'asked', 'a', 'cart', 'attendant', 'for', 'a', 'lotus', 'leaf', 'wrapped', 'rice', 'and', 'she', 'replied', 'back', 'rice', 'and', 'just', 'walked', 'away']",
+    "aspects": [
+      [
+        4,
+        6,
+        "NEG",
+        "['cart', 'attendant']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 1,
+    "sentence": "ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away"
+  },
+  {
+    "tokens": "['i', 'had', 'to', 'ask', 'her', 'three', 'times', 'before', 'she', 'finally', 'came', 'back', 'with', 'the', 'dish', 'iv', '##e', 'requested']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 2,
+    "sentence": "i had to ask her three times before she finally came back with the dish ive requested"
+  },
+  {
+    "tokens": "['service', 'was', 'devin', '##e', ',', 'oyster', '##s', 'where', 'a', 'sensual', 'as', 'they', 'come', ',', 'and', 'the', 'price', 'ca', 'n', \"'\", 't', 'be', 'beat', '!', '!', '!']",
+    "aspects": [
+      [
+        0,
+        1,
+        "POS",
+        "['service']"
+      ],
+      [
+        5,
+        7,
+        "POS",
+        "['oyster', '##s']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        4,
+        "['devin', '##e']"
+      ],
+      [
+        9,
+        10,
+        "['sensual']"
+      ]
+    ],
+    "ID": 3,
+    "sentence": "service was devine , oysters where a sensual as they come , and the price ca n't be beat ! ! !"
+  },
+  {
+    "tokens": "['i', 'had', 'never', 'had', 'ed', '##ama', '##me', 'pure', '##ed', 'before', 'but', 'i', 'thought', 'it', 'was', 'innovative', 'and', 'ta', '##sty', '(', 'could', \"'\", 've', 'used', 'a', 'bit', 'more', 'salt', ')']",
+    "aspects": [
+      [
+        4,
+        9,
+        "POS",
+        "['ed', '##ama', '##me', 'pure', '##ed']"
+      ]
+    ],
+    "opinions": [
+      [
+        15,
+        16,
+        "['innovative']"
+      ],
+      [
+        17,
+        19,
+        "['ta', '##sty']"
+      ]
+    ],
+    "ID": 4,
+    "sentence": "i had never had edamame pureed before but i thought it was innovative and tasty ( could 've used a bit more salt )"
+  },
+  {
+    "tokens": "['we', 'ate', 'outside', 'at', 'ha', '##ru', \"'\", 's', 'sake', 'bar', 'because', 'ha', '##ru', \"'\", 's', 'restaurant', 'next', 'door', 'was', 'over', '##flow', '##ing']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 5,
+    "sentence": "we ate outside at haru 's sake bar because haru 's restaurant next door was overflowing"
+  },
+  {
+    "tokens": "['we', 'went', 'around', 'on', 'a', 'friday', 'and', 'it', 'had', 'died', 'down', 'a', 'bit', 'by', 'then', 'so', 'the', 'service', 'was', 'great', '!']",
+    "aspects": [
+      [
+        17,
+        18,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        19,
+        20,
+        "['great']"
+      ]
+    ],
+    "ID": 6,
+    "sentence": "we went around on a friday and it had died down a bit by then so the service was great !"
+  },
+  {
+    "tokens": "['we', 'love', 'th', 'pink', 'pony']",
+    "aspects": [
+      [
+        3,
+        5,
+        "POS",
+        "['pink', 'pony']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['love']"
+      ]
+    ],
+    "ID": 7,
+    "sentence": "we love th pink pony"
+  },
+  {
+    "tokens": "['i', 'have', 'eaten', 'here', 'a', 'handful', 'of', 'times', ',', 'for', 'no', 'reason', 'besides', 'sheer', 'convenience']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 8,
+    "sentence": "i have eaten here a handful of times , for no reason besides sheer convenience"
+  },
+  {
+    "tokens": "['(', 'i', 'hang', 'out', ',', 'and', 'live', ',', 'in', 'the', 'neighborhood', '.', '.', ')']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 9,
+    "sentence": "( i hang out , and live , in the neighborhood.. )"
+  },
+  {
+    "tokens": "['however', ',', 'it', \"'\", 's', 'the', 'service', 'that', 'leaves', 'a', 'bad', 'taste', 'in', 'my', 'mouth']",
+    "aspects": [
+      [
+        6,
+        7,
+        "NEG",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        10,
+        12,
+        "['bad', 'taste']"
+      ]
+    ],
+    "ID": 10,
+    "sentence": "however , it 's the service that leaves a bad taste in my mouth"
+  },
+  {
+    "tokens": "['well', ',', 'i', 'did', 'n', \"'\", 't', 'find', 'it', 'there', ',', 'and', 'trust', ',', 'i', 'have', 'told', 'everyone', 'i', 'can', 'think', 'of', 'about', 'my', 'experience']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 11,
+    "sentence": "well , i did n't find it there , and trust , i have told everyone i can think of about my experience"
+  },
+  {
+    "tokens": "['she', 'lives', 'nearby', 'but', 'had', 'never', 'gone', 'to', 'this', 'establishment', 'thinking', 'that', 'it', 'might', 'be', 'too', 'tourist', '##y']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 12,
+    "sentence": "she lives nearby but had never gone to this establishment thinking that it might be too touristy"
+  },
+  {
+    "tokens": "['having', 'hunted', 'around', 'for', 'a', 'quiet', ',', 'romantic', ',', 'yet', 'not', 'hideous', '##ly', 'expensive', 'restaurant', 'i', 'stumbled', 'across', 'reviews', 'for', 'la', 'lantern', '##a', 'and', 'gave', 'it', 'a', 'shot']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 13,
+    "sentence": "having hunted around for a quiet , romantic , yet not hideously expensive restaurant i stumbled across reviews for la lanterna and gave it a shot"
+  },
+  {
+    "tokens": "['quite', 'simply', 'it', \"'\", 's', 'like', 'stepping', 'out', 'of', 'manhattan', 'and', 'into', 'a', 'haven', 'of', 'tran', '##quil', '##ity']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 14,
+    "sentence": "quite simply it 's like stepping out of manhattan and into a haven of tranquility"
+  },
+  {
+    "tokens": "['the', 'prix', 'fix', '##e', 'menu', 'is', 'worth', 'every', 'penny', 'and', 'you', 'get', 'more', 'than', 'enough', '(', 'both', 'in', 'quantity', 'and', 'quality', ')']",
+    "aspects": [
+      [
+        1,
+        5,
+        "POS",
+        "['prix', 'fix', '##e', 'menu']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        7,
+        "['worth']"
+      ]
+    ],
+    "ID": 15,
+    "sentence": "the prix fixe menu is worth every penny and you get more than enough ( both in quantity and quality )"
+  },
+  {
+    "tokens": "['it', 'is', 'terrific', ',', 'as', 'is', 'the', 'value']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['terrific']"
+      ]
+    ],
+    "ID": 16,
+    "sentence": "it is terrific , as is the value"
+  },
+  {
+    "tokens": "['i', 'like', 'the', 'so', '##mos', '##as', ',', 'cha', '##i', ',', 'and', 'the', 'cho', '##le', ',', 'but', 'the', 'dh', '##osa', '##s', 'and', 'dh', '##al', 'were', 'kinda', 'di', '##ssa', '##point', '##ing']",
+    "aspects": [
+      [
+        3,
+        6,
+        "POS",
+        "['so', '##mos', '##as']"
+      ],
+      [
+        7,
+        9,
+        "POS",
+        "['cha', '##i']"
+      ],
+      [
+        12,
+        14,
+        "POS",
+        "['cho', '##le']"
+      ],
+      [
+        17,
+        20,
+        "NEG",
+        "['dh', '##osa', '##s']"
+      ],
+      [
+        21,
+        23,
+        "NEG",
+        "['dh', '##al']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['like']"
+      ]
+    ],
+    "ID": 17,
+    "sentence": "i like the somosas , chai , and the chole , but the dhosas and dhal were kinda dissapointing"
+  },
+  {
+    "tokens": "['also', ',', 'specify', 'if', 'you', 'like', 'your', 'food', 'spicy', '-', 'its', 'rather', 'bland', 'if', 'you', 'do', 'n', \"'\", 't']",
+    "aspects": [
+      [
+        7,
+        8,
+        "NEG",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        12,
+        13,
+        "['bland']"
+      ]
+    ],
+    "ID": 18,
+    "sentence": "also , specify if you like your food spicy- its rather bland if you do n't"
+  },
+  {
+    "tokens": "['if', 'you', \"'\", 've', 'ever', 'been', 'along', 'the', 'river', 'in', 'wee', '##hawk', '##en', 'you', 'have', 'an', 'idea', 'of', 'the', 'top', 'of', 'view', 'the', 'chart', 'house', 'has', 'to', 'offer']",
+    "aspects": [
+      [
+        21,
+        22,
+        "POS",
+        "['view']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 19,
+    "sentence": "if you 've ever been along the river in weehawken you have an idea of the top of view the chart house has to offer"
+  },
+  {
+    "tokens": "['add', 'to', 'that', 'great', 'service', 'and', 'great', 'food', 'at', 'a', 'reasonable', 'price', 'and', 'you', 'have', 'yourself', 'the', 'beginning', 'of', 'a', 'great', 'evening']",
+    "aspects": [
+      [
+        4,
+        5,
+        "POS",
+        "['service']"
+      ],
+      [
+        7,
+        8,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['great']"
+      ],
+      [
+        6,
+        7,
+        "['great']"
+      ],
+      [
+        20,
+        21,
+        "['great']"
+      ]
+    ],
+    "ID": 20,
+    "sentence": "add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening"
+  },
+  {
+    "tokens": "['the', 'lava', 'cake', 'dessert', 'was', 'incredible', 'and', 'i', 'recommend', 'it']",
+    "aspects": [
+      [
+        1,
+        4,
+        "POS",
+        "['lava', 'cake', 'dessert']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['incredible']"
+      ],
+      [
+        8,
+        9,
+        "['recommend']"
+      ]
+    ],
+    "ID": 21,
+    "sentence": "the lava cake dessert was incredible and i recommend it"
+  },
+  {
+    "tokens": "['the', 'pizza', 'is', 'over', '##pr', '##ice', '##d', 'and', 'so', '##ggy']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['pizza']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        7,
+        "['over', '##pr', '##ice', '##d']"
+      ],
+      [
+        8,
+        10,
+        "['so', '##ggy']"
+      ]
+    ],
+    "ID": 22,
+    "sentence": "the pizza is overpriced and soggy"
+  },
+  {
+    "tokens": "['yes', ',', 'they', 'use', 'fancy', 'ingredients', ',', 'but', 'even', 'fancy', 'ingredients', 'do', 'n', \"'\", 't', 'make', 'for', 'good', 'pizza', 'unless', 'someone', 'knows', 'how', 'to', 'get', 'the', 'crust', 'right']",
+    "aspects": [
+      [
+        5,
+        6,
+        "POS",
+        "['ingredients']"
+      ],
+      [
+        18,
+        19,
+        "NEG",
+        "['pizza']"
+      ],
+      [
+        26,
+        27,
+        "NEG",
+        "['crust']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['fancy']"
+      ],
+      [
+        9,
+        10,
+        "['fancy']"
+      ],
+      [
+        17,
+        18,
+        "['good']"
+      ]
+    ],
+    "ID": 23,
+    "sentence": "yes , they use fancy ingredients , but even fancy ingredients do n't make for good pizza unless someone knows how to get the crust right"
+  },
+  {
+    "tokens": "['worth', 'the', 'trip', 'from', 'manhattan']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 24,
+    "sentence": "worth the trip from manhattan"
+  },
+  {
+    "tokens": "['our', 'teenage', 'kids', 'love', 'it', ',', 'too']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 25,
+    "sentence": "our teenage kids love it , too"
+  },
+  {
+    "tokens": "['every', '##time', 'i', 'decide', 'to', 'try', 'another', 'place', 'on', 'the', 'u', '##es', ',', 'i', 'get', 'angry', 'that', 'i', 'did', 'n', \"'\", 't', 'just', 'go', 'to', 'zu', '##cc', '##her', '##o', 'po', '##mo', '##dor', '##i']",
+    "aspects": [
+      [
+        25,
+        33,
+        "POS",
+        "['zu', '##cc', '##her', '##o', 'po', '##mo', '##dor', '##i']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 26,
+    "sentence": "everytime i decide to try another place on the ues , i get angry that i did n't just go to zucchero pomodori"
+  },
+  {
+    "tokens": "['i', 'just', 'do', 'n', \"'\", 't', 'understand', 'all', 'the', 'h', '##ype']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 27,
+    "sentence": "i just do n't understand all the hype"
+  },
+  {
+    "tokens": "['when', 'we', 'sat', ',', 'we', 'got', 'great', 'and', 'fast', 'service']",
+    "aspects": [
+      [
+        9,
+        10,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        7,
+        "['great']"
+      ],
+      [
+        8,
+        9,
+        "['fast']"
+      ]
+    ],
+    "ID": 28,
+    "sentence": "when we sat , we got great and fast service"
+  },
+  {
+    "tokens": "['make', 'sure', 'you', 'try', 'this', 'place', 'as', 'often', 'as', 'you', 'can']",
+    "aspects": [
+      [
+        5,
+        6,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['often']"
+      ]
+    ],
+    "ID": 29,
+    "sentence": "make sure you try this place as often as you can"
+  },
+  {
+    "tokens": "['the', 'pizza', 'is', 'yu', '##mmy', 'and', 'i', 'like', 'the', 'atm', '##osh', '##per', '##e']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['pizza']"
+      ],
+      [
+        9,
+        13,
+        "POS",
+        "['atm', '##osh', '##per', '##e']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        5,
+        "['yu', '##mmy']"
+      ],
+      [
+        7,
+        8,
+        "['like']"
+      ]
+    ],
+    "ID": 30,
+    "sentence": "the pizza is yummy and i like the atmoshpere"
+  },
+  {
+    "tokens": "['i', 'went', 'there', 'for', 'lunch', 'and', 'it', 'was', 'not', 'as', 'good', 'as', 'i', 'expected', 'from', 'the', 'reviews', 'i', 'read']",
+    "aspects": [
+      [
+        4,
+        5,
+        "NEG",
+        "['lunch']"
+      ]
+    ],
+    "opinions": [
+      [
+        10,
+        11,
+        "['good']"
+      ]
+    ],
+    "ID": 31,
+    "sentence": "i went there for lunch and it was not as good as i expected from the reviews i read"
+  },
+  {
+    "tokens": "['this', 'place', 'is', 'great']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['great']"
+      ]
+    ],
+    "ID": 32,
+    "sentence": "this place is great"
+  },
+  {
+    "tokens": "['great', 'pizza', 'and', 'fantastic', 'service']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['pizza']"
+      ],
+      [
+        4,
+        5,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['great']"
+      ],
+      [
+        3,
+        4,
+        "['fantastic']"
+      ]
+    ],
+    "ID": 33,
+    "sentence": "great pizza and fantastic service"
+  },
+  {
+    "tokens": "['i', 'will', 'be', 'back', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 34,
+    "sentence": "i will be back !"
+  },
+  {
+    "tokens": "['this', 'is', 'the', 'best', 'su', '##shi', 'in', 'new', 'york', 'city', '-', 'hands', 'down']",
+    "aspects": [
+      [
+        4,
+        6,
+        "POS",
+        "['su', '##shi']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['best']"
+      ]
+    ],
+    "ID": 35,
+    "sentence": "this is the best sushi in new york city - hands down"
+  },
+  {
+    "tokens": "['the', 'place', 'is', 'small', 'and', 'cramped', 'but', 'the', 'food', 'is', 'fantastic']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['place']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['small']"
+      ],
+      [
+        5,
+        6,
+        "['cramped']"
+      ],
+      [
+        10,
+        11,
+        "['fantastic']"
+      ]
+    ],
+    "ID": 36,
+    "sentence": "the place is small and cramped but the food is fantastic"
+  },
+  {
+    "tokens": "['the', 'atmosphere', 'is', 'n', \"'\", 't', 'the', 'greatest', ',', 'but', 'i', 'suppose', 'that', \"'\", 's', 'how', 'they', 'keep', 'the', 'prices', 'down']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['atmosphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['greatest']"
+      ]
+    ],
+    "ID": 37,
+    "sentence": "the atmosphere is n't the greatest , but i suppose that 's how they keep the prices down"
+  },
+  {
+    "tokens": "['i', 'went', 'there', 'with', 'my', 'friend', 'last', 'saturday']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 38,
+    "sentence": "i went there with my friend last saturday"
+  },
+  {
+    "tokens": "['then', 'we', 'ordered', 'a', 'dinosaur', 'rolls', 'and', 'white', 'tuna', 'sash', '##imi']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 39,
+    "sentence": "then we ordered a dinosaur rolls and white tuna sashimi"
+  },
+  {
+    "tokens": "['try', 'the', 'crunch', '##y', 'tuna', ',', 'it', 'is', 'to', 'die', 'for']",
+    "aspects": [
+      [
+        2,
+        5,
+        "POS",
+        "['crunch', '##y', 'tuna']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        11,
+        "['die', 'for']"
+      ]
+    ],
+    "ID": 40,
+    "sentence": "try the crunchy tuna , it is to die for"
+  },
+  {
+    "tokens": "['admitted', '##ly', 'some', 'nights', 'inside', 'the', 'restaurant', 'were', 'rather', 'warm', ',', 'but', 'the', 'open', 'kitchen', 'is', 'part', 'of', 'the', 'charm']",
+    "aspects": [
+      [
+        6,
+        7,
+        "NEG",
+        "['restaurant']"
+      ],
+      [
+        13,
+        15,
+        "POS",
+        "['open', 'kitchen']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['warm']"
+      ],
+      [
+        19,
+        20,
+        "['charm']"
+      ]
+    ],
+    "ID": 41,
+    "sentence": "admittedly some nights inside the restaurant were rather warm , but the open kitchen is part of the charm"
+  },
+  {
+    "tokens": "['great', 'wine', 'selection', ',', 'gig', '##onda', '##s', 'is', 'worth', 'the', 'price', ',', 'and', 'the', 'house', 'champagne', 'is', 'a', 'great', 'value']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['wine', 'selection']"
+      ],
+      [
+        4,
+        7,
+        "POS",
+        "['gig', '##onda', '##s']"
+      ],
+      [
+        14,
+        16,
+        "POS",
+        "['house', 'champagne']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['great']"
+      ],
+      [
+        8,
+        9,
+        "['worth']"
+      ],
+      [
+        18,
+        20,
+        "['great', 'value']"
+      ]
+    ],
+    "ID": 42,
+    "sentence": "great wine selection , gigondas is worth the price , and the house champagne is a great value"
+  },
+  {
+    "tokens": "['i', 'take', 'all', 'my', 'nyc', 'guests', 'to', 'vt', \"'\", 's']",
+    "aspects": [
+      [
+        7,
+        10,
+        "POS",
+        "['vt', \"'\", 's']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 43,
+    "sentence": "i take all my nyc guests to vt 's"
+  },
+  {
+    "tokens": "['i', \"'\", 've', 'been', 'there', 'three', 'times', 'and', 'have', 'always', 'had', 'wonderful', 'experiences']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 44,
+    "sentence": "i 've been there three times and have always had wonderful experiences"
+  },
+  {
+    "tokens": "['i', \"'\", 'm', 'not', 'sure', 'where', 'the', 'other', 'reviewers', 'ate', 'but', 'it', 'seems', 'as', 'if', 'we', 'visited', 'two', 'different', 'restaurants', 'because', 'my', 'friends', 'and', 'i', 'all', 'enjoy', 'mi', '##zu', 'very', 'much', 'and', 'we', \"'\", 're', 'repeat', 'customers']",
+    "aspects": [
+      [
+        27,
+        29,
+        "POS",
+        "['mi', '##zu']"
+      ]
+    ],
+    "opinions": [
+      [
+        26,
+        27,
+        "['enjoy']"
+      ]
+    ],
+    "ID": 45,
+    "sentence": "i 'm not sure where the other reviewers ate but it seems as if we visited two different restaurants because my friends and i all enjoy mizu very much and we 're repeat customers"
+  },
+  {
+    "tokens": "['tiny', 'dessert', 'was', '8', '.', '00', 'just', 'plain', 'over', '##pr', '##ice', '##d', 'for', 'what', 'it', 'is']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['dessert']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        12,
+        "['over', '##pr', '##ice', '##d']"
+      ]
+    ],
+    "ID": 46,
+    "sentence": "tiny dessert was 8.00 just plain overpriced for what it is"
+  },
+  {
+    "tokens": "['it', 'is', 'also', 'extremely', 'well', 'priced']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 47,
+    "sentence": "it is also extremely well priced"
+  },
+  {
+    "tokens": "['the', 'staff', 'is', 'incredibly', 'helpful', 'and', 'at', '##ten', '##tive']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['staff']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['helpful']"
+      ],
+      [
+        6,
+        9,
+        "['at', '##ten', '##tive']"
+      ]
+    ],
+    "ID": 48,
+    "sentence": "the staff is incredibly helpful and attentive"
+  },
+  {
+    "tokens": "['this', 'is', 'one', 'of', 'my', 'favorite', 'restaurants', 'and', 'it', 'is', 'not', 'to', 'be', 'missed']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 49,
+    "sentence": "this is one of my favorite restaurants and it is not to be missed"
+  },
+  {
+    "tokens": "['the', 'waitress', 'moved', 'our', 'table', 'practically', 'into', 'the', 'bathroom', 'and', 'when', 'we', 'asked', 'to', 'cancel', 'our', 'dinner', 'orders', 'because', 'we', 'did', 'not', 'want', 'to', 'eat', 'sitting', 'on', 'the', 'toilet', ',', 'we', 'were', 'told', 'no']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['waitress']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 50,
+    "sentence": "the waitress moved our table practically into the bathroom and when we asked to cancel our dinner orders because we did not want to eat sitting on the toilet , we were told no"
+  },
+  {
+    "tokens": "['then', ',', 'to', 'top', 'things', 'off', ',', 'she', 'dropped', 'used', 'silver', '##ware', 'on', 'my', 'boyfriend', \"'\", 's', 'jacket', 'and', 'did', 'not', 'stop', 'to', 'apologize', 'or', 'clean', 'the', 'mess', 'that', 'was', 'left', 'on', 'clothes']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 51,
+    "sentence": "then , to top things off , she dropped used silverware on my boyfriend 's jacket and did not stop to apologize or clean the mess that was left on clothes"
+  },
+  {
+    "tokens": "['the', 'tuna', 'and', 'was', '##abe', 'potatoes', 'are', 'excellent']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['tuna']"
+      ],
+      [
+        3,
+        6,
+        "POS",
+        "['was', '##abe', 'potatoes']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['excellent']"
+      ]
+    ],
+    "ID": 52,
+    "sentence": "the tuna and wasabe potatoes are excellent"
+  },
+  {
+    "tokens": "['service', 'was', 'prompt', 'and', 'court', '##eous']",
+    "aspects": [
+      [
+        0,
+        1,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['prompt']"
+      ],
+      [
+        4,
+        6,
+        "['court', '##eous']"
+      ]
+    ],
+    "ID": 53,
+    "sentence": "service was prompt and courteous"
+  },
+  {
+    "tokens": "['but', 'too', 'far', 'east', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 54,
+    "sentence": "but too far east !"
+  },
+  {
+    "tokens": "['two', 'complaints', '-', 'their', 'app', '##eti', '##zer', 'selection', 'stink', '##s', ',', 'it', 'would', 'be', 'nice', 'to', 'get', 'some', 'mo', '##zza', '##rella', 'sticks', 'on', 'the', 'menu']",
+    "aspects": [
+      [
+        4,
+        8,
+        "NEG",
+        "['app', '##eti', '##zer', 'selection']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        10,
+        "['stink', '##s']"
+      ]
+    ],
+    "ID": 55,
+    "sentence": "two complaints- their appetizer selection stinks , it would be nice to get some mozzarella sticks on the menu"
+  },
+  {
+    "tokens": "['with', 'so', 'many', 'poor', 'experiences', 'to', 'be', 'had', 'in', 'the', 'theater', 'district', ',', 'is', 'truly', 'an', 'excellent', 'find', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 56,
+    "sentence": "with so many poor experiences to be had in the theater district , is truly an excellent find !"
+  },
+  {
+    "tokens": "['worth', 'visiting', 'the', '1st', 'ave', 'spot', 'because', 'it', 'is', 'the', 'original', 'store']",
+    "aspects": [
+      [
+        3,
+        6,
+        "POS",
+        "['1st', 'ave', 'spot']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['worth']"
+      ]
+    ],
+    "ID": 57,
+    "sentence": "worth visiting the 1st ave spot because it is the original store"
+  },
+  {
+    "tokens": "['i', 'asked', 'the', 'chef', 'what', 'he', 'recommends', 'and', 'he', 'asked', 'me', 'if', 'i', 'like', 'un', '##i', '(']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 58,
+    "sentence": "i asked the chef what he recommends and he asked me if i like uni ("
+  },
+  {
+    "tokens": "['aside', 'from', 'the', 'sea', 'ur', '##chin', ',', 'the', 'chef', 'recommended', 'an', 'assortment', 'of', 'fish', 'including', 'fatty', 'yellow', 'tail', ',', 'bot', '##on', 'shrimp', ',', 'blue', 'fin', 'tor', '##ro', '(', 'fatty', 'tuna', ')', ',', 'sea', 'eel', ',', 'etc']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 59,
+    "sentence": "aside from the sea urchin , the chef recommended an assortment of fish including fatty yellow tail , boton shrimp , blue fin torro ( fatty tuna ) , sea eel , etc"
+  },
+  {
+    "tokens": "['traditional', 'french', 'deco', '##ur', 'was', 'pleasant', 'though', 'the', 'hall', 'was', 'rather', 'noisy', '-', 'the', 'restaurant', 'was', 'full', 'and', 'we', 'had', 'to', 'raise', 'our', 'voices', 'to', 'be', 'able', 'to', 'maintain', 'a', 'conversation']",
+    "aspects": [
+      [
+        0,
+        4,
+        "POS",
+        "['traditional', 'french', 'deco', '##ur']"
+      ],
+      [
+        8,
+        9,
+        "NEG",
+        "['hall']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['pleasant']"
+      ],
+      [
+        11,
+        12,
+        "['noisy']"
+      ]
+    ],
+    "ID": 60,
+    "sentence": "traditional french decour was pleasant though the hall was rather noisy - the restaurant was full and we had to raise our voices to be able to maintain a conversation"
+  },
+  {
+    "tokens": "['seating', 'is', 'always', 'prompt', ',', 'though', 'the', 'restaurant', 'does', 'fill', 'up', 'in', 'the', 'evening']",
+    "aspects": [
+      [
+        0,
+        1,
+        "POS",
+        "['seating']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['prompt']"
+      ]
+    ],
+    "ID": 61,
+    "sentence": "seating is always prompt , though the restaurant does fill up in the evening"
+  },
+  {
+    "tokens": "['the', 'decor', 'is', 'vibrant', 'and', 'eye', '-', 'pleasing', 'with', 'several', 'semi', '-', 'private', 'both', '##s', 'on', 'the', 'right', 'side', 'of', 'the', 'dining', 'hall', ',', 'which', 'are', 'great', 'for', 'a', 'date']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['decor']"
+      ],
+      [
+        10,
+        15,
+        "POS",
+        "['semi', '-', 'private', 'both', '##s']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['vibrant']"
+      ],
+      [
+        5,
+        8,
+        "['eye', '-', 'pleasing']"
+      ],
+      [
+        26,
+        27,
+        "['great']"
+      ]
+    ],
+    "ID": 62,
+    "sentence": "the decor is vibrant and eye-pleasing with several semi-private boths on the right side of the dining hall , which are great for a date"
+  },
+  {
+    "tokens": "['it', \"'\", 's', 'simply', 'the', 'best', 'meal', 'in', 'nyc']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['meal']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['best']"
+      ]
+    ],
+    "ID": 63,
+    "sentence": "it 's simply the best meal in nyc"
+  },
+  {
+    "tokens": "['the', 'food', 'is', 'a', 'diamond', 'in', 'rough', '-', '-', 'the', 'food', 'is', 'delicious', 'and', 'homemade', 'with', 'the', 'perfect', 'balance', 'of', 'herbs', 'and', 'tomatoes']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['food']"
+      ],
+      [
+        18,
+        23,
+        "POS",
+        "['balance', 'of', 'herbs', 'and', 'tomatoes']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['diamond']"
+      ],
+      [
+        12,
+        13,
+        "['delicious']"
+      ],
+      [
+        14,
+        15,
+        "['homemade']"
+      ],
+      [
+        17,
+        18,
+        "['perfect']"
+      ]
+    ],
+    "ID": 64,
+    "sentence": "the food is a diamond in rough -- the food is delicious and homemade with the perfect balance of herbs and tomatoes"
+  },
+  {
+    "tokens": "['the', 'place', \"'\", 's', 'decor', 'and', 'hidden', 'bathrooms', 'made', 'for', 'a', 'good', 'laugh']",
+    "aspects": [
+      [
+        4,
+        5,
+        "POS",
+        "['decor']"
+      ],
+      [
+        6,
+        8,
+        "POS",
+        "['hidden', 'bathrooms']"
+      ]
+    ],
+    "opinions": [
+      [
+        11,
+        12,
+        "['good']"
+      ]
+    ],
+    "ID": 65,
+    "sentence": "the place 's decor and hidden bathrooms made for a good laugh"
+  },
+  {
+    "tokens": "['but', 'they', 'do']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 66,
+    "sentence": "but they do"
+  },
+  {
+    "tokens": "['if', 'you', 'want', 'to', 'din', '##e', 'with', 'large', 'party', ',', 'i', 'recommend', 'to', 'make', 'reservation', 'basement']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 67,
+    "sentence": "if you want to dine with large party , i recommend to make reservation basement"
+  },
+  {
+    "tokens": "['there', \"'\", 's', 'nice', 'and', 'quiet', ',', 'small', 'but', 'enough', 'for', '6', '(', 'or', 'more', ')']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 68,
+    "sentence": "there 's nice and quiet , small but enough for 6 ( or more )"
+  },
+  {
+    "tokens": "['this', 'restaurant', 'was', 'way', 'over', '##hy', '##ped']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['restaurant']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        7,
+        "['over', '##hy', '##ped']"
+      ]
+    ],
+    "ID": 69,
+    "sentence": "this restaurant was way overhyped"
+  },
+  {
+    "tokens": "['my', 'chow', 'fun', 'and', 'chow', 'see', 'was', 'really', 'bland', 'and', 'oil', '##y']",
+    "aspects": [
+      [
+        1,
+        6,
+        "NEG",
+        "['chow', 'fun', 'and', 'chow', 'see']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        9,
+        "['bland']"
+      ],
+      [
+        10,
+        12,
+        "['oil', '##y']"
+      ]
+    ],
+    "ID": 70,
+    "sentence": "my chow fun and chow see was really bland and oily"
+  },
+  {
+    "tokens": "['okay', '-', 'i', 'do', 'n', \"'\", 't', 'mind', 'the', 'oil', '##y', 'part', '(', 'cause', 'most', 'are', 'cooked', 'that', 'way', ')', 'but', 'it', 'was', 'way', 'too', 'bland']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 71,
+    "sentence": "okay-i do n't mind the oily part ( cause most are cooked that way ) but it was way too bland"
+  },
+  {
+    "tokens": "['i', 'definitely', 'would', 'n', \"'\", 't', 'go', 'back']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 72,
+    "sentence": "i definitely would n't go back"
+  },
+  {
+    "tokens": "['their', 'pad', 'penang', 'is', 'delicious', 'and', 'everything', 'else', 'is', 'fantastic']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['pad', 'penang']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['delicious']"
+      ],
+      [
+        9,
+        10,
+        "['fantastic']"
+      ]
+    ],
+    "ID": 73,
+    "sentence": "their pad penang is delicious and everything else is fantastic"
+  },
+  {
+    "tokens": "['fresh', 'restaurant', 'was', 'amazing', 'food', 'was', 'delicious', 'and', 'of', 'course', 'fresh']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['fresh', 'restaurant']"
+      ],
+      [
+        4,
+        5,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['fresh']"
+      ],
+      [
+        3,
+        4,
+        "['amazing']"
+      ],
+      [
+        6,
+        7,
+        "['delicious']"
+      ],
+      [
+        10,
+        11,
+        "['fresh']"
+      ]
+    ],
+    "ID": 74,
+    "sentence": "fresh restaurant was amazing food was delicious and of course fresh"
+  },
+  {
+    "tokens": "['i', 'will', 'be', 'going', 'back', 'very', 'soon']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 75,
+    "sentence": "i will be going back very soon"
+  },
+  {
+    "tokens": "['we', 'had', 'pam', \"'\", 's', 'special', 'fried', 'fish', 'and', 'it', 'was', 'amazing']",
+    "aspects": [
+      [
+        2,
+        8,
+        "POS",
+        "['pam', \"'\", 's', 'special', 'fried', 'fish']"
+      ]
+    ],
+    "opinions": [
+      [
+        11,
+        12,
+        "['amazing']"
+      ]
+    ],
+    "ID": 76,
+    "sentence": "we had pam 's special fried fish and it was amazing"
+  },
+  {
+    "tokens": "['too', 'large', 'for', 'just', 'two', 'people', 'but', 'nothing', 'was', 'left']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 77,
+    "sentence": "too large for just two people but nothing was left"
+  },
+  {
+    "tokens": "['i', 'did', 'n', \"'\", 't', 'complain', ',', 'i', 'liked', 'the', 'atmosphere', 'so', 'much']",
+    "aspects": [
+      [
+        10,
+        11,
+        "POS",
+        "['atmosphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        9,
+        "['liked']"
+      ]
+    ],
+    "ID": 78,
+    "sentence": "i did n't complain , i liked the atmosphere so much"
+  },
+  {
+    "tokens": "['visited', 'there', 'while', 'on', 'vacation', 'and', 'reading', 'the', 'reviews']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 79,
+    "sentence": "visited there while on vacation and reading the reviews"
+  },
+  {
+    "tokens": "['the', 'yellow', '##tail', 'was', 'particularly', 'good', 'as', 'well']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['yellow', '##tail']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['good']"
+      ]
+    ],
+    "ID": 80,
+    "sentence": "the yellowtail was particularly good as well"
+  },
+  {
+    "tokens": "['in', 'any', 'event', ',', 'this', 'is', 'a', 'place', 'i', \"'\", 'll', 'be', 'sure', 'to', 'stop', 'by', 'again', 'when', 'i', \"'\", 'm', 'in', 'this', 'part', 'of', 'town']",
+    "aspects": [
+      [
+        7,
+        8,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 81,
+    "sentence": "in any event , this is a place i 'll be sure to stop by again when i 'm in this part of town"
+  },
+  {
+    "tokens": "['the', 'atmosphere', 'is', 'noisy', 'and', 'the', 'waiter', '##s', 'are', 'literally', 'walking', 'around', 'doing', 'things', 'as', 'fast', 'as', 'they', 'can']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['atmosphere']"
+      ],
+      [
+        6,
+        8,
+        "POS",
+        "['waiter', '##s']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['noisy']"
+      ],
+      [
+        15,
+        16,
+        "['fast']"
+      ]
+    ],
+    "ID": 82,
+    "sentence": "the atmosphere is noisy and the waiters are literally walking around doing things as fast as they can"
+  },
+  {
+    "tokens": "['went', 'here', 'on', 'a', 'friend', \"'\", 's', 'rec', '##com', '##end', '##ation']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 83,
+    "sentence": "went here on a friend 's reccomendation"
+  },
+  {
+    "tokens": "['sometimes', 'i', 'get', 'bad', 'food', 'and', 'bad', 'service', ',', 'sometimes', 'i', 'get', 'good', 'good', 'and', 'bad', 'service']",
+    "aspects": [
+      [
+        4,
+        5,
+        "NEG",
+        "['food']"
+      ],
+      [
+        7,
+        8,
+        "NEG",
+        "['service']"
+      ],
+      [
+        13,
+        14,
+        "POS",
+        "['good']"
+      ],
+      [
+        16,
+        17,
+        "NEG",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['bad']"
+      ],
+      [
+        6,
+        7,
+        "['bad']"
+      ],
+      [
+        12,
+        13,
+        "['good']"
+      ],
+      [
+        13,
+        14,
+        "['good']"
+      ],
+      [
+        15,
+        16,
+        "['bad']"
+      ]
+    ],
+    "ID": 84,
+    "sentence": "sometimes i get bad food and bad service , sometimes i get good good and bad service"
+  },
+  {
+    "tokens": "['and', 'evaluated', 'on', 'those', 'terms', 'past', '##is', 'is', 'simply', 'wonderful']",
+    "aspects": [
+      [
+        5,
+        7,
+        "POS",
+        "['past', '##is']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['wonderful']"
+      ]
+    ],
+    "ID": 85,
+    "sentence": "and evaluated on those terms pastis is simply wonderful"
+  },
+  {
+    "tokens": "['mine', 'was', 'a', 'little', 'burnt', 'but', 'still', 'delicious', 'with', 'goat', 'cheese', 'and', 'pan', '##chet', '##ta', '(', 'ra', '##dd', '##ichi', '##o', 'was', 'kind', 'of', 'bitter', 'though', ')']",
+    "aspects": [
+      [
+        16,
+        20,
+        "NEG",
+        "['ra', '##dd', '##ichi', '##o']"
+      ]
+    ],
+    "opinions": [
+      [
+        23,
+        24,
+        "['bitter']"
+      ]
+    ],
+    "ID": 86,
+    "sentence": "mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though )"
+  },
+  {
+    "tokens": "['my', 'friend', 'got', 'the', 'mushroom', 'pizza', 'which', 'tasted', 'better']",
+    "aspects": [
+      [
+        4,
+        6,
+        "POS",
+        "['mushroom', 'pizza']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        9,
+        "['better']"
+      ]
+    ],
+    "ID": 87,
+    "sentence": "my friend got the mushroom pizza which tasted better"
+  },
+  {
+    "tokens": "['i', 'started', 'out', 'with', 'a', 'bombay', 'beer', 'which', 'was', 'big', 'enough', 'for', 'two']",
+    "aspects": [
+      [
+        5,
+        7,
+        "POS",
+        "['bombay', 'beer']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['big']"
+      ]
+    ],
+    "ID": 88,
+    "sentence": "i started out with a bombay beer which was big enough for two"
+  },
+  {
+    "tokens": "['service', 'was', 'slow', ',', 'but', 'the', 'people', 'were', 'friendly']",
+    "aspects": [
+      [
+        0,
+        1,
+        "NEG",
+        "['service']"
+      ],
+      [
+        6,
+        7,
+        "POS",
+        "['people']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['slow']"
+      ],
+      [
+        8,
+        9,
+        "['friendly']"
+      ]
+    ],
+    "ID": 89,
+    "sentence": "service was slow , but the people were friendly"
+  },
+  {
+    "tokens": "['it', \"'\", 's', 'a', 'nice', 'place', 'to', 'relax', 'and', 'have', 'conversation']",
+    "aspects": [
+      [
+        5,
+        6,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['nice']"
+      ]
+    ],
+    "ID": 90,
+    "sentence": "it 's a nice place to relax and have conversation"
+  },
+  {
+    "tokens": "['do', 'not', 'try', 'unless', 'you', \"'\", 're', 'just', 'going', 'there', 'to', 'hang', 'out', 'like', 'the', 'rest', 'of', 'the', 'hips', '##ters', 'who', 'apparently', 'have', 'no', 'sense', 'of', 'taste']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 91,
+    "sentence": "do not try unless you 're just going there to hang out like the rest of the hipsters who apparently have no sense of taste"
+  },
+  {
+    "tokens": "['it', \"'\", 's', 'a', 'small', 'cute', 'restaurant']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['restaurant']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['small']"
+      ],
+      [
+        5,
+        6,
+        "['cute']"
+      ]
+    ],
+    "ID": 92,
+    "sentence": "it 's a small cute restaurant"
+  },
+  {
+    "tokens": "['big', 'thumbs', 'up', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 93,
+    "sentence": "big thumbs up !"
+  },
+  {
+    "tokens": "['check', 'this', 'place', 'out', '!']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 94,
+    "sentence": "check this place out !"
+  },
+  {
+    "tokens": "['to', 'celebrate', 'a', 'birthday', ',', 'three', 'of', 'us', 'went', 'to', 'mare', 'anticipating', 'great', 'food']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 95,
+    "sentence": "to celebrate a birthday , three of us went to mare anticipating great food"
+  },
+  {
+    "tokens": "['not', 'one', 'of', 'our', 'meals', 'was', 'edible', '-', 'bland', 'and', '/', 'or', 'made', 'with', 'weird', 'rosemary', 'or', 'orange', 'flavor', '##ing']",
+    "aspects": [
+      [
+        4,
+        5,
+        "NEG",
+        "['meals']"
+      ],
+      [
+        15,
+        20,
+        "NEG",
+        "['rosemary', 'or', 'orange', 'flavor', '##ing']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        7,
+        "['edible']"
+      ],
+      [
+        8,
+        9,
+        "['bland']"
+      ],
+      [
+        14,
+        15,
+        "['weird']"
+      ]
+    ],
+    "ID": 96,
+    "sentence": "not one of our meals was edible - bland and/or made with weird rosemary or orange flavoring"
+  },
+  {
+    "tokens": "['someone', 'else', 'recommended', 'the', 'dessert', '-', 'we', 'also', 'left', 'that']",
+    "aspects": [
+      [
+        4,
+        5,
+        "NEG",
+        "['dessert']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['recommended']"
+      ]
+    ],
+    "ID": 97,
+    "sentence": "someone else recommended the dessert - we also left that"
+  },
+  {
+    "tokens": "['skip', 'this', 'restaurant', ',', 'it', \"'\", 's', 'a', 'big', 'disappointment']",
+    "aspects": [
+      [
+        2,
+        3,
+        "NEG",
+        "['restaurant']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['skip']"
+      ],
+      [
+        9,
+        10,
+        "['disappointment']"
+      ]
+    ],
+    "ID": 98,
+    "sentence": "skip this restaurant , it 's a big disappointment"
+  },
+  {
+    "tokens": "['i', 'highly', 'recommend', 'to', 'anyone', 'to', 'give', 'this', 'place', 'a', 'try']",
+    "aspects": [
+      [
+        8,
+        9,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['recommend']"
+      ]
+    ],
+    "ID": 99,
+    "sentence": "i highly recommend to anyone to give this place a try"
+  },
+  {
+    "tokens": "['a', 'restaurant', 'that', 'does', 'n', \"'\", 't', 'try', 'to', 'do', 'anything', 'except', 'serve', 'great', 'food', 'with', 'great', 'service', 'in', 'a', 'pleasant', 'atmosphere']",
+    "aspects": [
+      [
+        14,
+        15,
+        "POS",
+        "['food']"
+      ],
+      [
+        17,
+        18,
+        "POS",
+        "['service']"
+      ],
+      [
+        21,
+        22,
+        "POS",
+        "['atmosphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        13,
+        14,
+        "['great']"
+      ],
+      [
+        16,
+        17,
+        "['great']"
+      ],
+      [
+        20,
+        21,
+        "['pleasant']"
+      ]
+    ],
+    "ID": 100,
+    "sentence": "a restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere"
+  },
+  {
+    "tokens": "['i', 'had', 'lobster', 'bis', '##que', 'it', 'has', '2', 'oz', 'of', 'maine', 'lobster', 'in', 'it']",
+    "aspects": [
+      [
+        2,
+        5,
+        "POS",
+        "['lobster', 'bis', '##que']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 101,
+    "sentence": "i had lobster bisque it has 2 oz of maine lobster in it"
+  },
+  {
+    "tokens": "['my', 'boyfriend', 'had', 'the', 'new', 'england', 'chow', '##der', 'it', 'was', 'good', 'but', 'i', 'think', 'the', 'award', 'should', 'go', 'to', 'the', 'lobster', 'bis', '##que']",
+    "aspects": [
+      [
+        4,
+        8,
+        "POS",
+        "['new', 'england', 'chow', '##der']"
+      ],
+      [
+        20,
+        23,
+        "POS",
+        "['lobster', 'bis', '##que']"
+      ]
+    ],
+    "opinions": [
+      [
+        10,
+        11,
+        "['good']"
+      ],
+      [
+        15,
+        16,
+        "['award']"
+      ]
+    ],
+    "ID": 102,
+    "sentence": "my boyfriend had the new england chowder it was good but i think the award should go to the lobster bisque"
+  },
+  {
+    "tokens": "['we', 'had', 'lava', 'cake', 'we', 'ordered', 'when', 'our', 'food', 'came', 'it', 'takes', 'at', 'least', 'a', '1', '/', '2', 'to', 'make', 'it']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 103,
+    "sentence": "we had lava cake we ordered when our food came it takes at least a 1/2 to make it"
+  },
+  {
+    "tokens": "['if', 'you', 'like', 'spicy', 'food', 'get', 'the', 'chicken', 'vin', '##dal', '##oo']",
+    "aspects": [
+      [
+        7,
+        11,
+        "POS",
+        "['chicken', 'vin', '##dal', '##oo']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['like']"
+      ]
+    ],
+    "ID": 104,
+    "sentence": "if you like spicy food get the chicken vindaloo"
+  },
+  {
+    "tokens": "['the', 'portions', 'are', 'large', 'and', 'the', 'servers', 'always', 'surprise', 'us', 'with', 'a', 'different', 'starter']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['portions']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['large']"
+      ]
+    ],
+    "ID": 105,
+    "sentence": "the portions are large and the servers always surprise us with a different starter"
+  },
+  {
+    "tokens": "['recommendations', ',', 'of', 'course', ',', 'are', 'required', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 106,
+    "sentence": "recommendations , of course , are required !"
+  },
+  {
+    "tokens": "['we', 'ordered', 'the', 'special', ',', 'grille', '##d', 'bran', '##zin', '##o', ',', 'that', 'was', 'so', 'infused', 'with', 'bone', ',', 'it', 'was', 'difficult', 'to', 'eat']",
+    "aspects": [
+      [
+        5,
+        10,
+        "NEG",
+        "['grille', '##d', 'bran', '##zin', '##o']"
+      ]
+    ],
+    "opinions": [
+      [
+        20,
+        21,
+        "['difficult']"
+      ]
+    ],
+    "ID": 107,
+    "sentence": "we ordered the special , grilled branzino , that was so infused with bone , it was difficult to eat"
+  },
+  {
+    "tokens": "['the', 'staff', 'was', 'the', 'friend', '##liest', 'that', 'have', 'seen', 'in', 'new', 'york']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['staff']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        6,
+        "['friend', '##liest']"
+      ]
+    ],
+    "ID": 108,
+    "sentence": "the staff was the friendliest that have seen in new york"
+  },
+  {
+    "tokens": "['service', 'was', 'slow', 'had', 'to', 'wait', 'to', 'order', 'and', 'get', 'food', 'although', 'not', 'crowded']",
+    "aspects": [
+      [
+        0,
+        1,
+        "NEG",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['slow']"
+      ]
+    ],
+    "ID": 109,
+    "sentence": "service was slow had to wait to order and get food although not crowded"
+  },
+  {
+    "tokens": "['and', 'it', 'was', 'quick', 'which', 'is', 'very', 'important']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 110,
+    "sentence": "and it was quick which is very important"
+  },
+  {
+    "tokens": "['delivery', 'is', 'fast', 'too']",
+    "aspects": [
+      [
+        0,
+        1,
+        "POS",
+        "['delivery']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['fast']"
+      ]
+    ],
+    "ID": 111,
+    "sentence": "delivery is fast too"
+  },
+  {
+    "tokens": "['prices', 'too', 'high', 'for', 'this', 'cramped', 'and', 'una', '##ppe', '##aling', 'rest', '##ura', '##nt']",
+    "aspects": [
+      [
+        10,
+        13,
+        "NEG",
+        "['rest', '##ura', '##nt']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['cramped']"
+      ],
+      [
+        7,
+        10,
+        "['una', '##ppe', '##aling']"
+      ]
+    ],
+    "ID": 112,
+    "sentence": "prices too high for this cramped and unappealing resturant"
+  },
+  {
+    "tokens": "['zero', 'am', '##bian', '##ce', 'to', 'boot']",
+    "aspects": [
+      [
+        1,
+        4,
+        "NEG",
+        "['am', '##bian', '##ce']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['zero']"
+      ]
+    ],
+    "ID": 113,
+    "sentence": "zero ambiance to boot"
+  },
+  {
+    "tokens": "['when', 'you', 'add', 'it', 'all', 'together', ',', 'it', 'just', 'does', 'n', \"'\", 't', 'seem', 'worth', 'it', 'to', 'me', 'especially', 'considering', 'the', 'prices']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 114,
+    "sentence": "when you add it all together , it just does n't seem worth it to me especially considering the prices"
+  },
+  {
+    "tokens": "['this', 'is', 'the', 'best', 'sha', '##bu', '-', 'sha', '##bu', 'restaurant', 'in', 'the', 'try', '-', 'state', 'area']",
+    "aspects": [
+      [
+        4,
+        10,
+        "POS",
+        "['sha', '##bu', '-', 'sha', '##bu', 'restaurant']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['best']"
+      ]
+    ],
+    "ID": 115,
+    "sentence": "this is the best shabu-shabu restaurant in the try-state area"
+  },
+  {
+    "tokens": "['went', 'there', 'for', 'an', 'office', 'lunch']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 116,
+    "sentence": "went there for an office lunch"
+  },
+  {
+    "tokens": "['the', 'service', 'is', 'ok', ',', 'some', 'of', 'the', 'people', 'did', 'n', \"'\", 't', 'get', 'what', 'they', 'asked', 'for']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEU",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['ok']"
+      ]
+    ],
+    "ID": 117,
+    "sentence": "the service is ok , some of the people did n't get what they asked for"
+  },
+  {
+    "tokens": "['the', 'wine', 'the', 'service', 'was', 'very', 'good', 'too']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['wine']"
+      ],
+      [
+        3,
+        4,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        7,
+        "['good']"
+      ]
+    ],
+    "ID": 118,
+    "sentence": "the wine the service was very good too"
+  },
+  {
+    "tokens": "['mo', '##lto', 'ben', '##e', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 119,
+    "sentence": "molto bene !"
+  },
+  {
+    "tokens": "['check', 'out', 'the', 'secret', 'back', 'room']",
+    "aspects": [
+      [
+        4,
+        6,
+        "POS",
+        "['back', 'room']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['secret']"
+      ]
+    ],
+    "ID": 120,
+    "sentence": "check out the secret back room"
+  },
+  {
+    "tokens": "['thank', 'you', 'emilio']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['emilio']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 121,
+    "sentence": "thank you emilio"
+  },
+  {
+    "tokens": "['the', 'prices', 'are', 'wonderful', '##ly', 'low']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 122,
+    "sentence": "the prices are wonderfully low"
+  },
+  {
+    "tokens": "['we', 'were', 'planning', 'to', 'get', 'dessert', 'but', 'the', 'waitress', 'basically', 'through', 'the', 'bill', 'at', 'us', 'before', 'we', 'had', 'a', 'chance', 'to', 'order']",
+    "aspects": [
+      [
+        8,
+        9,
+        "NEG",
+        "['waitress']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 123,
+    "sentence": "we were planning to get dessert but the waitress basically through the bill at us before we had a chance to order"
+  },
+  {
+    "tokens": "['i', \"'\", 'll', 'keep', 'this', 'short']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 124,
+    "sentence": "i 'll keep this short"
+  },
+  {
+    "tokens": "['the', 'two', 'star', 'chefs', 'left', 'quite', 'some', 'time', 'ago', 'to', 'open', 'their', 'own', 'place']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 125,
+    "sentence": "the two star chefs left quite some time ago to open their own place"
+  },
+  {
+    "tokens": "['first', 'of', 'all', 'dal', 'bu', '##khar', '##a', 'rocks']",
+    "aspects": [
+      [
+        3,
+        7,
+        "POS",
+        "['dal', 'bu', '##khar', '##a']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 126,
+    "sentence": "first of all dal bukhara rocks"
+  },
+  {
+    "tokens": "['i', 'am', 'happy', 'i', 'did', 'the', 'food', 'was', 'aw', '##some']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        10,
+        "['aw', '##some']"
+      ]
+    ],
+    "ID": 127,
+    "sentence": "i am happy i did the food was awsome"
+  },
+  {
+    "tokens": "['and', 'yes', 'dal', 'bu', '##khar', '##a', 'is', 'so', 'dam', 'good', 'and', 'so', 'are', 'all', 'the', 'ka', '##ba', '##bs']",
+    "aspects": [
+      [
+        2,
+        6,
+        "POS",
+        "['dal', 'bu', '##khar', '##a']"
+      ],
+      [
+        15,
+        18,
+        "POS",
+        "['ka', '##ba', '##bs']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['good']"
+      ]
+    ],
+    "ID": 128,
+    "sentence": "and yes dal bukhara is so dam good and so are all the kababs"
+  },
+  {
+    "tokens": "['will', 'never', 'be', 'back']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 129,
+    "sentence": "will never be back"
+  },
+  {
+    "tokens": "['limited', 'menu', ',', 'no', '-', 'so', '-', 'fresh', 'ingredients', ',', 'thin', '##ly', '-', 'sliced', 'fish', ',', 'fall', '-', 'apart', 'rice']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['menu']"
+      ],
+      [
+        8,
+        9,
+        "NEG",
+        "['ingredients']"
+      ],
+      [
+        14,
+        15,
+        "NEG",
+        "['fish']"
+      ],
+      [
+        19,
+        20,
+        "NEG",
+        "['rice']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['limited']"
+      ],
+      [
+        3,
+        8,
+        "['no', '-', 'so', '-', 'fresh']"
+      ],
+      [
+        10,
+        14,
+        "['thin', '##ly', '-', 'sliced']"
+      ],
+      [
+        16,
+        19,
+        "['fall', '-', 'apart']"
+      ]
+    ],
+    "ID": 130,
+    "sentence": "limited menu , no-so-fresh ingredients , thinly-sliced fish , fall-apart rice"
+  },
+  {
+    "tokens": "['the', 'dinner', 'was', 'ok', ',', 'nothing', 'i', 'would', 'have', 'again']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['dinner']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['ok']"
+      ]
+    ],
+    "ID": 131,
+    "sentence": "the dinner was ok , nothing i would have again"
+  },
+  {
+    "tokens": "['the', 'service', 'was', 'at', '##ten', '##tive']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        6,
+        "['at', '##ten', '##tive']"
+      ]
+    ],
+    "ID": 132,
+    "sentence": "the service was attentive"
+  },
+  {
+    "tokens": "['planet', 'thai', 'is', 'great', '!']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['planet', 'thai']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['great']"
+      ]
+    ],
+    "ID": 133,
+    "sentence": "planet thai is great !"
+  },
+  {
+    "tokens": "['try', 'the', 'pad', 'thai', ',', 'it', \"'\", 's', 'fabulous', 'and', 'their', 'prices', 'are', 'so', 'cheap', '!']",
+    "aspects": [
+      [
+        2,
+        4,
+        "POS",
+        "['pad', 'thai']"
+      ]
+    ],
+    "opinions": [
+      [
+        8,
+        9,
+        "['fabulous']"
+      ]
+    ],
+    "ID": 134,
+    "sentence": "try the pad thai , it 's fabulous and their prices are so cheap !"
+  },
+  {
+    "tokens": "['they', 'forgot', 'a', 'sandwich', ',', 'did', 'n', \"'\", 't', 'include', 'plastic', 'forks', ',', 'and', 'did', 'n', \"'\", 't', 'include', 'pit', '##a', 'with', 'the', 'hum', '##mus', 'platt', '##er']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 135,
+    "sentence": "they forgot a sandwich , did n't include plastic forks , and did n't include pita with the hummus platter"
+  },
+  {
+    "tokens": "['chennai', 'garden', 'is', 'my', 'favorite', 'indian', 'restaurant', 'in', 'the', 'city']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['chennai', 'garden']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['favorite']"
+      ]
+    ],
+    "ID": 136,
+    "sentence": "chennai garden is my favorite indian restaurant in the city"
+  },
+  {
+    "tokens": "['not', 'a', 'great', 'place', 'for', 'family', 'or', 'general', 'dining']",
+    "aspects": [
+      [
+        3,
+        4,
+        "NEG",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['great']"
+      ]
+    ],
+    "ID": 137,
+    "sentence": "not a great place for family or general dining"
+  },
+  {
+    "tokens": "['ll', '##oo', '##v', '##ve', 'this', 'place']",
+    "aspects": [
+      [
+        5,
+        6,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 138,
+    "sentence": "lloovve this place"
+  },
+  {
+    "tokens": "['waits', '##taff', 'are', 'very', 'friendly']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['waits', '##taff']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['friendly']"
+      ]
+    ],
+    "ID": 139,
+    "sentence": "waitstaff are very friendly"
+  },
+  {
+    "tokens": "['went', 'to', 'village', 'last', 'night', 'for', 'my', 'birthday']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 140,
+    "sentence": "went to village last night for my birthday"
+  },
+  {
+    "tokens": "['the', 'food', 'was', 'delicious', '(', 'i', 'had', 'a', 'hal', '##ib', '##ut', 'special', ',', 'my', 'husband', 'had', 'steak', ')', ',', 'and', 'the', 'service', 'was', 'top', '-', 'notch']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['food']"
+      ],
+      [
+        8,
+        12,
+        "POS",
+        "['hal', '##ib', '##ut', 'special']"
+      ],
+      [
+        16,
+        17,
+        "POS",
+        "['steak']"
+      ],
+      [
+        21,
+        22,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['delicious']"
+      ],
+      [
+        23,
+        26,
+        "['top', '-', 'notch']"
+      ]
+    ],
+    "ID": 141,
+    "sentence": "the food was delicious ( i had a halibut special , my husband had steak ) , and the service was top-notch"
+  },
+  {
+    "tokens": "['(', 'the', 'as', '##para', '##gus', ',', 'tr', '##uf', '##fle', 'oil', ',', 'par', '##mes', '##an', 'br', '##us', '##chet', '##ta', 'is', 'a', 'winner', '!', ')']",
+    "aspects": [
+      [
+        2,
+        18,
+        "POS",
+        "['as', '##para', '##gus', ',', 'tr', '##uf', '##fle', 'oil', ',', 'par', '##mes', '##an', 'br', '##us', '##chet', '##ta']"
+      ]
+    ],
+    "opinions": [
+      [
+        20,
+        21,
+        "['winner']"
+      ]
+    ],
+    "ID": 142,
+    "sentence": "( the asparagus , truffle oil , parmesan bruschetta is a winner ! )"
+  },
+  {
+    "tokens": "['the', 'wait', 'staff', 'is', 'very', 'fr', '##ein', '##dly', ',', 'they', 'make', 'it', 'feel', 'like', 'you', \"'\", 're', 'eating', 'in', 'a', 'fr', '##ein', '##dly', 'little', 'european', 'town']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['wait', 'staff']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        8,
+        "['fr', '##ein', '##dly']"
+      ],
+      [
+        20,
+        23,
+        "['fr', '##ein', '##dly']"
+      ]
+    ],
+    "ID": 143,
+    "sentence": "the wait staff is very freindly , they make it feel like you 're eating in a freindly little european town"
+  },
+  {
+    "tokens": "['after', 'dinner', 'the', 'manager', 'grabbed', 'my', 'boyfriend', ',', 'asked', 'him', 'where', 'are', 'you', 'from', 'maybe', 'you', 'don', '##t', 'know', 'how', 'things', 'work', 'in', 'america', 'and', 'in', 'the', 'end', 'stormed', 'away', 'almost', 'tear', '##eye', '##d', 'yelling', 'that', 'tips', 'are', 'the', 'only', 'thing', 'they', 'survive', 'on']",
+    "aspects": [
+      [
+        3,
+        4,
+        "NEG",
+        "['manager']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 144,
+    "sentence": "after dinner the manager grabbed my boyfriend , asked him where are you from maybe you dont know how things work in america and in the end stormed away almost teareyed yelling that tips are the only thing they survive on"
+  },
+  {
+    "tokens": "['it', 'is', 'thick', 'and', 'slightly', 'so', '##ggy']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 145,
+    "sentence": "it is thick and slightly soggy"
+  },
+  {
+    "tokens": "['i', 'would', 'definitely', 'recommend', 'sea', 'if', 'you', 'like', 'thai', 'cuisine', '!']",
+    "aspects": [
+      [
+        8,
+        10,
+        "POS",
+        "['thai', 'cuisine']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['like']"
+      ]
+    ],
+    "ID": 146,
+    "sentence": "i would definitely recommend sea if you like thai cuisine !"
+  },
+  {
+    "tokens": "['while', 'it', 'is', 'understand', '##able', 'that', 'every', 'place', 'is', 'indeed', 'different', ',', 'there', 'was', 'not', 'a', 'need', 'to', 'be', 'un', '##court', '##eous', 'to', 'customers', 'and', 'down', '##right', 'rude']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 147,
+    "sentence": "while it is understandable that every place is indeed different , there was not a need to be uncourteous to customers and downright rude"
+  },
+  {
+    "tokens": "['fresh', 'ingredients', 'and', 'everything', 'is', 'made', 'to', 'order']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['ingredients']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['fresh']"
+      ]
+    ],
+    "ID": 148,
+    "sentence": "fresh ingredients and everything is made to order"
+  },
+  {
+    "tokens": "['i', 'found', 'the', 'food', 'to', 'be', 'outstanding', ',', 'particular', '##y', 'the', 'salmon', 'dish', 'i', 'had']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['food']"
+      ],
+      [
+        11,
+        13,
+        "POS",
+        "['salmon', 'dish']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        7,
+        "['outstanding']"
+      ],
+      [
+        8,
+        10,
+        "['particular', '##y']"
+      ]
+    ],
+    "ID": 149,
+    "sentence": "i found the food to be outstanding , particulary the salmon dish i had"
+  },
+  {
+    "tokens": "['i', 'also', 'ordered', 'the', 'change', 'mo', '##jit', '##o', ',', 'which', 'was', 'out', 'of', 'this', 'world']",
+    "aspects": [
+      [
+        4,
+        8,
+        "POS",
+        "['change', 'mo', '##jit', '##o']"
+      ]
+    ],
+    "opinions": [
+      [
+        11,
+        15,
+        "['out', 'of', 'this', 'world']"
+      ]
+    ],
+    "ID": 150,
+    "sentence": "i also ordered the change mojito , which was out of this world"
+  },
+  {
+    "tokens": "['i', 'went', 'to', 'ut', '##sa', '##v', 'about', 'a', 'y', '##r', 'ago', 'with', 'my', 'family']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 151,
+    "sentence": "i went to utsav about a yr ago with my family"
+  },
+  {
+    "tokens": "['i', 'work', 'around', 'the', 'corner', 'and', 'tried', 'it', 'with', 'a', 'colleague', 'for', 'the', 'first', 'time']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 152,
+    "sentence": "i work around the corner and tried it with a colleague for the first time"
+  },
+  {
+    "tokens": "['service', 'was', 'also', 'very', 'good']",
+    "aspects": [
+      [
+        0,
+        1,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['good']"
+      ]
+    ],
+    "ID": 153,
+    "sentence": "service was also very good"
+  },
+  {
+    "tokens": "['it', 'was', '14', 'not', 'really', 'bad', 'for', 'a', 'pound', 'of', 'past', '##ram', '##i', '-', 'but', 'it', 'did', 'n', \"'\", 't', 'have', 'much', 'taste', '-', 'i', \"'\", 've', 'had', 'better', 'for', 'less', 'elsewhere', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 154,
+    "sentence": "it was 14 not really bad for a pound of pastrami-but it did n't have much taste-i 've had better for less elsewhere !"
+  },
+  {
+    "tokens": "['and', 'the', 'tom', 'k', '##ha', 'soup', 'was', 'pathetic']",
+    "aspects": [
+      [
+        2,
+        6,
+        "NEG",
+        "['tom', 'k', '##ha', 'soup']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['pathetic']"
+      ]
+    ],
+    "ID": 155,
+    "sentence": "and the tom kha soup was pathetic"
+  },
+  {
+    "tokens": "['it', 'helps', 'if', 'you', 'know', 'what', 'to', 'order']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 156,
+    "sentence": "it helps if you know what to order"
+  },
+  {
+    "tokens": "['great', 'food', ',', 'good', 'size', 'menu', ',', 'great', 'service', 'and', 'an', 'un', '##pre', '##tens', '##ious', 'setting']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['food']"
+      ],
+      [
+        5,
+        6,
+        "POS",
+        "['menu']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['service']"
+      ],
+      [
+        15,
+        16,
+        "POS",
+        "['setting']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['great']"
+      ],
+      [
+        3,
+        5,
+        "['good', 'size']"
+      ],
+      [
+        7,
+        8,
+        "['great']"
+      ],
+      [
+        11,
+        15,
+        "['un', '##pre', '##tens', '##ious']"
+      ]
+    ],
+    "ID": 157,
+    "sentence": "great food , good size menu , great service and an unpretensious setting"
+  },
+  {
+    "tokens": "['i', \"'\", 'm', 'glad', 'i', 'was', 'introduced', 'to', 'this', 'place', 'and', 'this', 'is', 'a', 'rare', 'gem', 'in', 'ny']",
+    "aspects": [
+      [
+        9,
+        10,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['glad']"
+      ]
+    ],
+    "ID": 158,
+    "sentence": "i 'm glad i was introduced to this place and this is a rare gem in ny"
+  },
+  {
+    "tokens": "['we', 'have', 'tried', 'every', 'thai', 'restaurant', 'between', 'atlantic', 'avenue', 'and', '4th', 'streets', ',', 'and', 'joy', '##a', 'is', 'the', 'best']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 159,
+    "sentence": "we have tried every thai restaurant between atlantic avenue and 4th streets , and joya is the best"
+  },
+  {
+    "tokens": "['the', 'fresh', '##est', ',', 'best', 'variety', ',', 'and', 'the', 'fastest', 'delivery']",
+    "aspects": [
+      [
+        10,
+        11,
+        "POS",
+        "['delivery']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['fastest']"
+      ]
+    ],
+    "ID": 160,
+    "sentence": "the freshest , best variety , and the fastest delivery"
+  },
+  {
+    "tokens": "['the', 'service', 'was', 'excellent', 'and', 'the', 'food', 'was', 'delicious']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['service']"
+      ],
+      [
+        6,
+        7,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['excellent']"
+      ],
+      [
+        8,
+        9,
+        "['delicious']"
+      ]
+    ],
+    "ID": 161,
+    "sentence": "the service was excellent and the food was delicious"
+  },
+  {
+    "tokens": "['overall', 'the', 'restaurant', 'is', 'more', 'expensive', 'than', 'our', 'other', 'su', '##shi', 'favorites', ',', 'but', 'everything', 'was', 'delicious']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 162,
+    "sentence": "overall the restaurant is more expensive than our other sushi favorites , but everything was delicious"
+  },
+  {
+    "tokens": "['i', \"'\", 've', 'waited', 'over', 'one', 'hour', 'for', 'food']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 163,
+    "sentence": "i 've waited over one hour for food"
+  },
+  {
+    "tokens": "['they', 'were', 'very', 'abrupt', 'with', 'me', 'when', 'i', 'called', 'and', 'actually', 'claimed', 'the', 'food', 'was', 'late', 'because', 'they', 'were', 'out', 'of', 'rice']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 164,
+    "sentence": "they were very abrupt with me when i called and actually claimed the food was late because they were out of rice"
+  },
+  {
+    "tokens": "['an', 'excellent', 'service']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['excellent']"
+      ]
+    ],
+    "ID": 165,
+    "sentence": "an excellent service"
+  },
+  {
+    "tokens": "['we', 'were', 'greeted', 'promptly', 'by', 'the', 'waiter', 'who', 'was', 'very', 'nice', 'and', 'cord', '##ial']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['waiter']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['promptly']"
+      ],
+      [
+        10,
+        11,
+        "['nice']"
+      ],
+      [
+        12,
+        14,
+        "['cord', '##ial']"
+      ]
+    ],
+    "ID": 166,
+    "sentence": "we were greeted promptly by the waiter who was very nice and cordial"
+  },
+  {
+    "tokens": "['always', 'a', 'nice', 'crowd', ',', 'but', 'never', 'loud']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['crowd']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['nice']"
+      ],
+      [
+        7,
+        8,
+        "['loud']"
+      ]
+    ],
+    "ID": 167,
+    "sentence": "always a nice crowd , but never loud"
+  },
+  {
+    "tokens": "['go', 'here']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 168,
+    "sentence": "go here"
+  },
+  {
+    "tokens": "['however', ',', 'it', 'is', 'ju', '##s', 'too', 'good', 'to', 'not', 'praise', 'it']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 169,
+    "sentence": "however , it is jus too good to not praise it"
+  },
+  {
+    "tokens": "['we', 'all', 'agreed', 'that', 'mare', 'is', 'one', 'of', 'the', 'best', 'seafood', 'restaurants', 'in', 'new', 'york']",
+    "aspects": [
+      [
+        4,
+        5,
+        "POS",
+        "['mare']"
+      ]
+    ],
+    "opinions": [
+      [
+        9,
+        10,
+        "['best']"
+      ]
+    ],
+    "ID": 170,
+    "sentence": "we all agreed that mare is one of the best seafood restaurants in new york"
+  },
+  {
+    "tokens": "['i', 'stumbled', 'upon', 'this', 'great', 'pi', '##zz', '##eria', 'as', 'i', 'explored', 'my', 'new', 'neighborhood']",
+    "aspects": [
+      [
+        5,
+        8,
+        "POS",
+        "['pi', '##zz', '##eria']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['great']"
+      ]
+    ],
+    "ID": 171,
+    "sentence": "i stumbled upon this great pizzeria as i explored my new neighborhood"
+  },
+  {
+    "tokens": "['it', \"'\", 's', 'to', 'die', 'for', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 172,
+    "sentence": "it 's to die for !"
+  },
+  {
+    "tokens": "['immediately', 'after', 'we', 'paid', ',', 'the', 'waiter', 'took', 'the', 'money', 'and', 'said', ',', 'okay', ',', 'you', 'guys', 'are', 'outta', 'here']",
+    "aspects": [
+      [
+        6,
+        7,
+        "NEG",
+        "['waiter']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 173,
+    "sentence": "immediately after we paid , the waiter took the money and said , okay , you guys are outta here"
+  },
+  {
+    "tokens": "['there', 'are', 'other', 'people', 'waiting', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 174,
+    "sentence": "there are other people waiting !"
+  },
+  {
+    "tokens": "['we', 'were', 'n', \"'\", 't', 'even', 'at', 'our', 'table', 'for', 'more', 'than', 'an', 'hour', 'total']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 175,
+    "sentence": "we were n't even at our table for more than an hour total"
+  },
+  {
+    "tokens": "['for', 'the', 'people', 'who', 'want', 'great', 'food', 'plus', 'great', 'service', ',', 'roxy', 'is', 'a', 'place', 'to', 'avoid', '!']",
+    "aspects": [
+      [
+        6,
+        7,
+        "NEG",
+        "['food']"
+      ],
+      [
+        9,
+        10,
+        "NEG",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['great']"
+      ],
+      [
+        8,
+        9,
+        "['great']"
+      ]
+    ],
+    "ID": 176,
+    "sentence": "for the people who want great food plus great service , roxy is a place to avoid !"
+  },
+  {
+    "tokens": "['i', \"'\", 've', 'been', 'here', 'twice', 'now']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 177,
+    "sentence": "i 've been here twice now"
+  },
+  {
+    "tokens": "['the', 'first', 'time', 'the', 'su', '##shi', 'was', 'outstanding', ',', 'the', 'second', 'time', 'it', 'was', 'a', 'little', 'bland']",
+    "aspects": [
+      [
+        4,
+        6,
+        "CON",
+        "['su', '##shi']"
+      ]
+    ],
+    "opinions": [
+      [
+        7,
+        8,
+        "['outstanding']"
+      ],
+      [
+        16,
+        17,
+        "['bland']"
+      ]
+    ],
+    "ID": 178,
+    "sentence": "the first time the sushi was outstanding , the second time it was a little bland"
+  },
+  {
+    "tokens": "['tha', '##lia', 'is', 'a', 'beautiful', 'restaurant', 'with', 'beautiful', 'people', 'serving', 'you', ',', 'but', 'the', 'food', 'does', 'n', \"'\", 't', 'quite', 'match', 'up']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['tha', '##lia']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['people']"
+      ],
+      [
+        14,
+        15,
+        "NEG",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['beautiful']"
+      ],
+      [
+        7,
+        8,
+        "['beautiful']"
+      ],
+      [
+        20,
+        22,
+        "['match', 'up']"
+      ]
+    ],
+    "ID": 179,
+    "sentence": "thalia is a beautiful restaurant with beautiful people serving you , but the food does n't quite match up"
+  },
+  {
+    "tokens": "['i', 'ordered', 'the', 'smoked', 'salmon', 'and', 'roe', 'app', '##eti', '##zer', 'and', 'it', 'was', 'off', 'flavor']",
+    "aspects": [
+      [
+        3,
+        10,
+        "NEG",
+        "['smoked', 'salmon', 'and', 'roe', 'app', '##eti', '##zer']"
+      ]
+    ],
+    "opinions": [
+      [
+        13,
+        15,
+        "['off', 'flavor']"
+      ]
+    ],
+    "ID": 180,
+    "sentence": "i ordered the smoked salmon and roe appetizer and it was off flavor"
+  },
+  {
+    "tokens": "['the', 'view', 'is', 'spectacular', ',', 'and', 'the', 'food', 'is', 'great']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['view']"
+      ],
+      [
+        7,
+        8,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['spectacular']"
+      ],
+      [
+        9,
+        10,
+        "['great']"
+      ]
+    ],
+    "ID": 181,
+    "sentence": "the view is spectacular , and the food is great"
+  },
+  {
+    "tokens": "['delicious', 'simple', 'food', 'in', 'nice', 'outdoor', 'atmosphere']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['food']"
+      ],
+      [
+        5,
+        7,
+        "POS",
+        "['outdoor', 'atmosphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['delicious']"
+      ],
+      [
+        1,
+        2,
+        "['simple']"
+      ],
+      [
+        4,
+        5,
+        "['nice']"
+      ]
+    ],
+    "ID": 182,
+    "sentence": "delicious simple food in nice outdoor atmosphere"
+  },
+  {
+    "tokens": "['no', 'pizza', '33', 'for', 'me', '!']",
+    "aspects": [
+      [
+        1,
+        3,
+        "NEG",
+        "['pizza', '33']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 183,
+    "sentence": "no pizza 33 for me !"
+  },
+  {
+    "tokens": "['this', 'is', 'such', 'a', 'lovely', ',', 'peaceful', 'place', 'to', 'eat', 'outside']",
+    "aspects": [
+      [
+        7,
+        8,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['lovely']"
+      ],
+      [
+        6,
+        7,
+        "['peaceful']"
+      ]
+    ],
+    "ID": 184,
+    "sentence": "this is such a lovely , peaceful place to eat outside"
+  },
+  {
+    "tokens": "['great', 'su', '##shi', 'experience']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['su', '##shi']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['great']"
+      ]
+    ],
+    "ID": 185,
+    "sentence": "great sushi experience"
+  },
+  {
+    "tokens": "['the', 'pizza', 'is', 'delicious', 'and', 'the', 'proprietor', 'is', 'one', 'of', 'the', 'nice', '##st', 'in', 'nyc']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['pizza']"
+      ],
+      [
+        6,
+        7,
+        "POS",
+        "['proprietor']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['delicious']"
+      ],
+      [
+        11,
+        13,
+        "['nice', '##st']"
+      ]
+    ],
+    "ID": 186,
+    "sentence": "the pizza is delicious and the proprietor is one of the nicest in nyc"
+  },
+  {
+    "tokens": "['they', 'even', 'scoop', 'it', 'out', 'nice', '(', 'for', 'those', 'on', 'a', 'diet', ')', 'not', 'too', 'much', 'not', 'to', 'little']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 187,
+    "sentence": "they even scoop it out nice ( for those on a diet ) not too much not to little"
+  },
+  {
+    "tokens": "['well', ',', 'this', 'place', 'is', 'so', 'ghetto', 'its', 'not', 'even', 'funny']",
+    "aspects": [
+      [
+        3,
+        4,
+        "NEG",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        10,
+        11,
+        "['funny']"
+      ]
+    ],
+    "ID": 188,
+    "sentence": "well , this place is so ghetto its not even funny"
+  },
+  {
+    "tokens": "['that', 'place', 'was', 'awesome', ',', ',', ',', 'sally', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 189,
+    "sentence": "that place was awesome , , , sally !"
+  },
+  {
+    "tokens": "['everything', 'about', 'this', 'restaurant', 'was', 'special']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['restaurant']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['special']"
+      ]
+    ],
+    "ID": 190,
+    "sentence": "everything about this restaurant was special"
+  },
+  {
+    "tokens": "['the', 'food', 'is', 'yu', '##mmy', ',', 'especially', 'their', 'cooked', '-', 'to', '-', 'perfection', 'mu', '##ssel', '##s', 'in', 'spicy', 'tomato', 'sauce', 'and', 'their', 'shoes', '##tri', '##ng', 'crisp', '##y', 'fries']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['food']"
+      ],
+      [
+        13,
+        20,
+        "POS",
+        "['mu', '##ssel', '##s', 'in', 'spicy', 'tomato', 'sauce']"
+      ],
+      [
+        27,
+        28,
+        "POS",
+        "['fries']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        5,
+        "['yu', '##mmy']"
+      ],
+      [
+        6,
+        7,
+        "['especially']"
+      ],
+      [
+        8,
+        13,
+        "['cooked', '-', 'to', '-', 'perfection']"
+      ]
+    ],
+    "ID": 191,
+    "sentence": "the food is yummy , especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries"
+  },
+  {
+    "tokens": "['su', '##an', 'is', 'a', 'great', 'place', 'that', 'i', 'often', 'take', 'my', 'friends', '(', 'classmates', ')', 'too']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['su', '##an']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['great']"
+      ]
+    ],
+    "ID": 192,
+    "sentence": "suan is a great place that i often take my friends ( classmates ) too"
+  },
+  {
+    "tokens": "['its', 'location', 'is', 'good', 'and', 'the', 'fact', 'that', 'hut', '##ner', 'college', 'is', 'near', 'and', 'their', 'prices', 'are', 'very', 'reasonable', ',', 'makes', 'students', 'go', 'back', 'to', 'su', '##an', 'again', 'and', 'again']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['location']"
+      ],
+      [
+        25,
+        27,
+        "POS",
+        "['su', '##an']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['good']"
+      ],
+      [
+        18,
+        19,
+        "['reasonable']"
+      ]
+    ],
+    "ID": 193,
+    "sentence": "its location is good and the fact that hutner college is near and their prices are very reasonable , makes students go back to suan again and again"
+  },
+  {
+    "tokens": "['i', 'love', 'their', 'thai']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['thai']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['love']"
+      ]
+    ],
+    "ID": 194,
+    "sentence": "i love their thai"
+  },
+  {
+    "tokens": "['noodles', 'with', 'shrimp', 'and', 'chicken', 'and', 'coconut', 'juice', 'is', 'the', 'must', '!']",
+    "aspects": [
+      [
+        0,
+        8,
+        "POS",
+        "['noodles', 'with', 'shrimp', 'and', 'chicken', 'and', 'coconut', 'juice']"
+      ]
+    ],
+    "opinions": [
+      [
+        10,
+        11,
+        "['must']"
+      ]
+    ],
+    "ID": 195,
+    "sentence": "noodles with shrimp and chicken and coconut juice is the must !"
+  },
+  {
+    "tokens": "['i', 'was', 'in', 'love', 'with', 'po', '##ng', '##sr', '##i', 'on', '48th', ',', 'but', 'compared', 'to', 'su', '##an', 'it', 'is', 'slow', 'in', 'service', 'and', 'over', '##pr', '##ice', '##d']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 196,
+    "sentence": "i was in love with pongsri on 48th , but compared to suan it is slow in service and overpriced"
+  },
+  {
+    "tokens": "['i', 'can', 'not', 'imagine', 'a', 'friend', '##lier', 'staff', 'working', 'in', 'a', 'restaurant']",
+    "aspects": [
+      [
+        7,
+        8,
+        "POS",
+        "['staff']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        7,
+        "['friend', '##lier']"
+      ]
+    ],
+    "ID": 197,
+    "sentence": "i can not imagine a friendlier staff working in a restaurant"
+  },
+  {
+    "tokens": "['this', 'little', 'place', 'has', 'a', 'cute', 'interior', 'decor', 'and', 'affordable', 'city', 'prices']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['place']"
+      ],
+      [
+        6,
+        8,
+        "POS",
+        "['interior', 'decor']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['little']"
+      ],
+      [
+        5,
+        6,
+        "['cute']"
+      ]
+    ],
+    "ID": 198,
+    "sentence": "this little place has a cute interior decor and affordable city prices"
+  },
+  {
+    "tokens": "['the', 'only', 'thing', 'you', 'can', 'do', 'here', 'is', 'walk', 'in', 'and', 'eat', 'but', 'planning', 'an', 'event', ',', 'especially', 'a', 'small', ',', 'intimate', 'one', ',', 'forget', 'about', 'it']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 199,
+    "sentence": "the only thing you can do here is walk in and eat but planning an event , especially a small , intimate one , forget about it"
+  },
+  {
+    "tokens": "['they', 'are', 'not', 'helpful', 'in', 'the', 'least', 'and', 'will', 'give', 'you', 'the', 'grand', 'run', 'around', 'so', 'by', 'the', 'time', 'the', 'event', 'date', 'rolls', 'around', 'you', 'will', 'not', 'only', 'regret', 'cho', '##sing', 'this', 'place', ',', 'but', 'also', 'become', 'hostile', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 200,
+    "sentence": "they are not helpful in the least and will give you the grand run around so by the time the event date rolls around you will not only regret chosing this place , but also become hostile !"
+  },
+  {
+    "tokens": "['never', 'fails', 'to', 'please']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 201,
+    "sentence": "never fails to please"
+  },
+  {
+    "tokens": "['if', 'celebrities', 'make', 'you', 'sweat', ',', 'then', 'your', 'in', 'for', 'a', 'ride', ',', 'but', 'if', 'your', 'like', 'most', 'around', 'these', 'parts', 'then', 'you', \"'\", 'll', 'just', 'ya', '##wn', 'and', 'wonder', 'what', '##s', 'with', 'all', 'the', 'h', '##ype']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 202,
+    "sentence": "if celebrities make you sweat , then your in for a ride , but if your like most around these parts then you 'll just yawn and wonder whats with all the hype"
+  },
+  {
+    "tokens": "['i', \"'\", 've', 'eaten', 'at', 'many', 'different', 'indian', 'restaurants']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 203,
+    "sentence": "i 've eaten at many different indian restaurants"
+  },
+  {
+    "tokens": "['you', 'must', 'try', 'the', 'shrimp', 'app', '##eti', '##zers']",
+    "aspects": [
+      [
+        4,
+        8,
+        "POS",
+        "['shrimp', 'app', '##eti', '##zers']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 204,
+    "sentence": "you must try the shrimp appetizers"
+  },
+  {
+    "tokens": "['even', 'my', 'indian', 'friend', 'could', 'n', \"'\", 't', 'believe', 'how', 'good', 'and', 'ta', '##sty', 'everything', 'was']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 205,
+    "sentence": "even my indian friend could n't believe how good and tasty everything was"
+  },
+  {
+    "tokens": "['draw', '##backs', 'service', 'is', 'slow', 'and', 'they', 'do', 'n', \"'\", 't', 'toast', '!']",
+    "aspects": [
+      [
+        2,
+        3,
+        "NEG",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['slow']"
+      ]
+    ],
+    "ID": 206,
+    "sentence": "drawbacks service is slow and they do n't toast !"
+  },
+  {
+    "tokens": "['the', 'baked', 'cl', '##ams', 'octopus', 'we', 'shared', 'as', 'app', '##eti', '##zers', 'were', 'the', 'best', 'we', \"'\", 've', 'ever', 'had', '!', '!']",
+    "aspects": [
+      [
+        1,
+        5,
+        "POS",
+        "['baked', 'cl', '##ams', 'octopus']"
+      ]
+    ],
+    "opinions": [
+      [
+        13,
+        14,
+        "['best']"
+      ]
+    ],
+    "ID": 207,
+    "sentence": "the baked clams octopus we shared as appetizers were the best we 've ever had ! !"
+  },
+  {
+    "tokens": "['small', 'serving', '##s', 'for', 'main', 'en', '##tree', ',', 'i', 'had', 'salmon', '(', 'wasn', '##t', 'impressed', ')', 'girlfriend', 'had', 'chicken', ',', 'it', 'was', 'good']",
+    "aspects": [
+      [
+        1,
+        7,
+        "NEG",
+        "['serving', '##s', 'for', 'main', 'en', '##tree']"
+      ],
+      [
+        10,
+        11,
+        "NEG",
+        "['salmon']"
+      ],
+      [
+        18,
+        19,
+        "POS",
+        "['chicken']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['small']"
+      ],
+      [
+        14,
+        15,
+        "['impressed']"
+      ],
+      [
+        22,
+        23,
+        "['good']"
+      ]
+    ],
+    "ID": 208,
+    "sentence": "small servings for main entree , i had salmon ( wasnt impressed ) girlfriend had chicken , it was good"
+  },
+  {
+    "tokens": "['the', 'wine', 'list', 'is', 'extensive', 'and', 'can', 'easily', 'hike', 'up', 'an', 'otherwise', 'reasonably', 'priced', 'meal']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['wine', 'list']"
+      ],
+      [
+        14,
+        15,
+        "POS",
+        "['meal']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['extensive']"
+      ],
+      [
+        12,
+        14,
+        "['reasonably', 'priced']"
+      ]
+    ],
+    "ID": 209,
+    "sentence": "the wine list is extensive and can easily hike up an otherwise reasonably priced meal"
+  },
+  {
+    "tokens": "['cute', 'and', 'decorative']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 210,
+    "sentence": "cute and decorative"
+  },
+  {
+    "tokens": "['just', 'ignore', 'the', 'trend', '##y', 'wanna', '##bes']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 211,
+    "sentence": "just ignore the trendy wannabes"
+  },
+  {
+    "tokens": "['all', 'the', 'people', 'that', 'i', 'bring', 'there', 'go', 'back', 'on', 'their', 'own', 'and', 'bring', 'their', 'friends', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 212,
+    "sentence": "all the people that i bring there go back on their own and bring their friends !"
+  },
+  {
+    "tokens": "['go', 'there', 'once', 'and', 'oh', 'yes', 'you', 'will', 'go', 'back', 'you', 'will']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 213,
+    "sentence": "go there once and oh yes you will go back you will"
+  },
+  {
+    "tokens": "['what', 'a', 'great', 'place', '!']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['great']"
+      ]
+    ],
+    "ID": 214,
+    "sentence": "what a great place !"
+  },
+  {
+    "tokens": "['cozy', 'romantic', 'atom', '##osphere', 'with', 'only', 'around', '15', 'tables', 'at', 'most']",
+    "aspects": [
+      [
+        2,
+        4,
+        "POS",
+        "['atom', '##osphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['cozy']"
+      ],
+      [
+        1,
+        2,
+        "['romantic']"
+      ]
+    ],
+    "ID": 215,
+    "sentence": "cozy romantic atomosphere with only around 15 tables at most"
+  },
+  {
+    "tokens": "['food', 'was', 'very', 'good', ',', 'but', 'not', 'what', 'i', 'would', 'consider', 'out', 'of', 'this', 'world']",
+    "aspects": [
+      [
+        0,
+        1,
+        "NEU",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['good']"
+      ],
+      [
+        11,
+        15,
+        "['out', 'of', 'this', 'world']"
+      ]
+    ],
+    "ID": 216,
+    "sentence": "food was very good , but not what i would consider out of this world"
+  },
+  {
+    "tokens": "['too', 'bad', 'the', 'food', 'was', 'n', \"'\", 't', 'of', 'the', 'same', 'heritage']",
+    "aspects": [
+      [
+        3,
+        4,
+        "NEG",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['bad']"
+      ]
+    ],
+    "ID": 217,
+    "sentence": "too bad the food was n't of the same heritage"
+  },
+  {
+    "tokens": "['but', 'that', 'was', 'n', \"'\", 't', 'the', 'ic', '##ing', 'on', 'the', 'cake', 'a', 'ti', '##ram', '##is', '##u', 'that', 'resembled', 'nothing', 'i', 'have', 'ever', 'had']",
+    "aspects": [
+      [
+        13,
+        17,
+        "NEG",
+        "['ti', '##ram', '##is', '##u']"
+      ]
+    ],
+    "opinions": [
+      [
+        19,
+        20,
+        "['nothing']"
+      ]
+    ],
+    "ID": 218,
+    "sentence": "but that was n't the icing on the cake a tiramisu that resembled nothing i have ever had"
+  },
+  {
+    "tokens": "['i', 'really', 'liked', 'this', 'place']",
+    "aspects": [
+      [
+        4,
+        5,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        2,
+        3,
+        "['liked']"
+      ]
+    ],
+    "ID": 219,
+    "sentence": "i really liked this place"
+  },
+  {
+    "tokens": "['it', \"'\", 's', 'great', 'to', 'go', 'for', 'a', 'quick', 'lunch', 'either', 'alone', 'or', 'with', 'a', 'friend']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 220,
+    "sentence": "it 's great to go for a quick lunch either alone or with a friend"
+  },
+  {
+    "tokens": "['however', ',', 'if', 'you', 'want', 'great', 'food', 'at', 'a', 'great', 'price', 'and', 'do', 'n', \"'\", 't', 'mind', 'the', 'decor', ',', 'you', 'ca', 'n', \"'\", 't', 'beat', 'this', 'place']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['food']"
+      ],
+      [
+        18,
+        19,
+        "NEU",
+        "['decor']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['great']"
+      ],
+      [
+        9,
+        10,
+        "['great']"
+      ],
+      [
+        16,
+        17,
+        "['mind']"
+      ]
+    ],
+    "ID": 221,
+    "sentence": "however , if you want great food at a great price and do n't mind the decor , you ca n't beat this place"
+  },
+  {
+    "tokens": "['quick', 'and', 'friendly', 'service']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['service']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['quick']"
+      ],
+      [
+        2,
+        3,
+        "['friendly']"
+      ]
+    ],
+    "ID": 222,
+    "sentence": "quick and friendly service"
+  },
+  {
+    "tokens": "['ah', '##hh']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 223,
+    "sentence": "ahhh"
+  },
+  {
+    "tokens": "['the', 'service', 'was', 'fast', 'and', 'friendly', 'and', 'the', 'food', 'was', 'very', 'ta', '##sty', 'and', 'they', 'had', 'the', 'best', 'hot', 'sauce', 'to', 'add', 'to', 'your', 'meals']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['service']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['food']"
+      ],
+      [
+        18,
+        20,
+        "POS",
+        "['hot', 'sauce']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['fast']"
+      ],
+      [
+        5,
+        6,
+        "['friendly']"
+      ],
+      [
+        11,
+        13,
+        "['ta', '##sty']"
+      ],
+      [
+        17,
+        18,
+        "['best']"
+      ]
+    ],
+    "ID": 224,
+    "sentence": "the service was fast and friendly and the food was very tasty and they had the best hot sauce to add to your meals"
+  },
+  {
+    "tokens": "['i', 'thought', 'i', 'had', 'died', 'and', 'gone', 'to', 'heaven']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 225,
+    "sentence": "i thought i had died and gone to heaven"
+  },
+  {
+    "tokens": "['great', 'spot', ',', 'whether', 'looking', 'for', 'a', 'couple', 'of', 'drinks', 'or', 'quiet', 'dinner']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['spot']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['great']"
+      ]
+    ],
+    "ID": 226,
+    "sentence": "great spot , whether looking for a couple of drinks or quiet dinner"
+  },
+  {
+    "tokens": "['warm', 'and', 'friendly', 'in', 'the', 'winter', 'and', 'terrific', 'outdoor', 'seating', 'in', 'the', 'warmer', 'months']",
+    "aspects": [
+      [
+        8,
+        10,
+        "POS",
+        "['outdoor', 'seating']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['warm']"
+      ],
+      [
+        2,
+        3,
+        "['friendly']"
+      ],
+      [
+        7,
+        8,
+        "['terrific']"
+      ]
+    ],
+    "ID": 227,
+    "sentence": "warm and friendly in the winter and terrific outdoor seating in the warmer months"
+  },
+  {
+    "tokens": "['after', 'hearing', 'a', 'lot', 'of', 'great', 'things', 'about', 'the', 'restaurant', ',', 'and', 'passing', 'by', 'it', 'on', 'a', 'daily', 'basis', ',', 'we', 'decided', 'to', 'try']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 228,
+    "sentence": "after hearing a lot of great things about the restaurant , and passing by it on a daily basis , we decided to try"
+  },
+  {
+    "tokens": "['probably', 'would', 'not', 'go', 'again']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 229,
+    "sentence": "probably would not go again"
+  },
+  {
+    "tokens": "['instead', 'ordered', 'an', 'ice', 'cold', 'beer', 'which', 'to', 'me', 'works', 'with', 'indian']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 230,
+    "sentence": "instead ordered an ice cold beer which to me works with indian"
+  },
+  {
+    "tokens": "['i', 'would', 'recommend', 'reservations', 'on', 'weekends', 'though']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 231,
+    "sentence": "i would recommend reservations on weekends though"
+  },
+  {
+    "tokens": "['best', 'reuben', 'sandwich', 'ever', '!']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['reuben', 'sandwich']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['best']"
+      ]
+    ],
+    "ID": 232,
+    "sentence": "best reuben sandwich ever !"
+  },
+  {
+    "tokens": "['the', 'food', 'was', 'not', 'fresh', ',', 'the', 'sauce', '##s', 'were', 'bland', 'and', 'very', 'oil', '##y']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['food']"
+      ],
+      [
+        7,
+        9,
+        "NEG",
+        "['sauce', '##s']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['fresh']"
+      ],
+      [
+        10,
+        11,
+        "['bland']"
+      ],
+      [
+        13,
+        15,
+        "['oil', '##y']"
+      ]
+    ],
+    "ID": 233,
+    "sentence": "the food was not fresh , the sauces were bland and very oily"
+  },
+  {
+    "tokens": "['it', 'just', 'was', 'n', \"'\", 't', 'thai']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 234,
+    "sentence": "it just was n't thai"
+  },
+  {
+    "tokens": "['was', 'surprisingly', 'disappointed']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 235,
+    "sentence": "was surprisingly disappointed"
+  },
+  {
+    "tokens": "['ravi', '##oli', 'was', 'good', 'but', 'i', 'have', 'to', 'say', 'that', 'i', 'found', 'everything', 'a', 'bit', 'over', '##pr', '##ice', '##d']",
+    "aspects": [
+      [
+        0,
+        2,
+        "POS",
+        "['ravi', '##oli']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['good']"
+      ]
+    ],
+    "ID": 236,
+    "sentence": "ravioli was good but i have to say that i found everything a bit overpriced"
+  },
+  {
+    "tokens": "['not', 'enough', 'wines', 'by', 'the', 'glass', 'either']",
+    "aspects": [
+      [
+        2,
+        6,
+        "NEG",
+        "['wines', 'by', 'the', 'glass']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['enough']"
+      ]
+    ],
+    "ID": 237,
+    "sentence": "not enough wines by the glass either"
+  },
+  {
+    "tokens": "['authentic', 'pakistani', 'food']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['pakistani', 'food']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['authentic']"
+      ]
+    ],
+    "ID": 238,
+    "sentence": "authentic pakistani food"
+  },
+  {
+    "tokens": "['the', 'food', 'was', 'actually', 'awe', '##ful']",
+    "aspects": [
+      [
+        1,
+        2,
+        "NEG",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        6,
+        "['awe', '##ful']"
+      ]
+    ],
+    "ID": 239,
+    "sentence": "the food was actually aweful"
+  },
+  {
+    "tokens": "['my', 'fa', '##v', 'was', 'the', 'sas', '##sy', 'lass', '##i']",
+    "aspects": [
+      [
+        5,
+        9,
+        "POS",
+        "['sas', '##sy', 'lass', '##i']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        3,
+        "['fa', '##v']"
+      ]
+    ],
+    "ID": 240,
+    "sentence": "my fav was the sassy lassi"
+  },
+  {
+    "tokens": "['this', 'is', 'an', 'amazing', 'place', 'to', 'try', 'some', 'rot', '##i', 'rolls']",
+    "aspects": [
+      [
+        8,
+        11,
+        "POS",
+        "['rot', '##i', 'rolls']"
+      ]
+    ],
+    "opinions": [
+      [
+        3,
+        4,
+        "['amazing']"
+      ]
+    ],
+    "ID": 241,
+    "sentence": "this is an amazing place to try some roti rolls"
+  },
+  {
+    "tokens": "['rao', \"'\", 's', 'has', 'the', 'best', 'service', 'and', 'atmosphere', 'in', 'nyc']",
+    "aspects": [
+      [
+        6,
+        7,
+        "POS",
+        "['service']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['atmosphere']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['best']"
+      ]
+    ],
+    "ID": 242,
+    "sentence": "rao 's has the best service and atmosphere in nyc"
+  },
+  {
+    "tokens": "['the', 'portion', 'sizes', 'here', 'are', 'huge', ',', 'and', 'the', 'su', '##shi', 'is', 'good']",
+    "aspects": [
+      [
+        1,
+        3,
+        "POS",
+        "['portion', 'sizes']"
+      ],
+      [
+        9,
+        11,
+        "POS",
+        "['su', '##shi']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['huge']"
+      ],
+      [
+        12,
+        13,
+        "['good']"
+      ]
+    ],
+    "ID": 243,
+    "sentence": "the portion sizes here are huge , and the sushi is good"
+  },
+  {
+    "tokens": "['i', 'came', 'here', 'with', 'my', 'boyfriend', 'for', 'our', 'anniversary', 'because', 'it', 'was', 'highly', 'recommended', 'to', 'him', 'by', 'a', 'friend']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 244,
+    "sentence": "i came here with my boyfriend for our anniversary because it was highly recommended to him by a friend"
+  },
+  {
+    "tokens": "['i', 'loved', 'it', 'and', 'would', 'go', 'again']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 245,
+    "sentence": "i loved it and would go again"
+  },
+  {
+    "tokens": "['the', 'owner', 'truly', 'cater', '##s', 'to', 'all', 'your', 'needs']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['owner']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 246,
+    "sentence": "the owner truly caters to all your needs"
+  },
+  {
+    "tokens": "['a', 'great', 'place', 'to', 'meet', 'up', 'for', 'some', 'food', 'and', 'drinks']",
+    "aspects": [
+      [
+        2,
+        3,
+        "POS",
+        "['place']"
+      ]
+    ],
+    "opinions": [
+      [
+        1,
+        2,
+        "['great']"
+      ]
+    ],
+    "ID": 247,
+    "sentence": "a great place to meet up for some food and drinks"
+  },
+  {
+    "tokens": "['just', 'moved', 'to', 'the', 'neighborhood', 'and', 'we', \"'\", 've', 'been', 'trying', 'all', 'the', 'west', 'village', 'su', '##shi', 'restaurants']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 248,
+    "sentence": "just moved to the neighborhood and we 've been trying all the west village sushi restaurants"
+  },
+  {
+    "tokens": "['fabulous', 'decor', '-', 'makes', 'you', 'feel', 'like', 'you', \"'\", 're', 'in', 'a', 'trend', '##y', 'manhattan', 'restaurant', ',', 'very', 'very', 'good', 'food', ',', 'cheap', '##ly', '-', 'priced', ',', 'generally', 'friendly', 'staff', ',', 'and', 'if', 'you', \"'\", 're', 'a', 'manhattan', '##ite', ',', 'or', 'spend', 'most', 'of', 'your', 'time', 'in', 'manhattan', ',', 'rice', 'avenue', 'will', 'make', 'you', 'feel', 'at', 'home', 'soho', '/', 'village', '/', 'upper', 'west', 'side', 'minus', 'the', 'expensive', 'prices', 'and', 'pre', '##ten', '##tious', 'client', '##ele', 'on', 'roosevelt', 'avenue', '!']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['decor']"
+      ],
+      [
+        20,
+        21,
+        "POS",
+        "['food']"
+      ],
+      [
+        29,
+        30,
+        "POS",
+        "['staff']"
+      ],
+      [
+        49,
+        51,
+        "POS",
+        "['rice', 'avenue']"
+      ]
+    ],
+    "opinions": [
+      [
+        0,
+        1,
+        "['fabulous']"
+      ],
+      [
+        19,
+        20,
+        "['good']"
+      ],
+      [
+        22,
+        26,
+        "['cheap', '##ly', '-', 'priced']"
+      ],
+      [
+        28,
+        29,
+        "['friendly']"
+      ]
+    ],
+    "ID": 249,
+    "sentence": "fabulous decor - makes you feel like you 're in a trendy manhattan restaurant , very very good food , cheaply-priced , generally friendly staff , and if you 're a manhattanite , or spend most of your time in manhattan , rice avenue will make you feel at home soho/village/upper west side minus the expensive prices and pretentious clientele on roosevelt avenue !"
+  },
+  {
+    "tokens": "['we', 'were', 'seated', 'outside', 'and', 'the', 'waiter', 'spilled', 'red', 'wine', 'and', 'hot', 'tea', 'on', 'myself', 'and', 'my', 'date']",
+    "aspects": [
+      [
+        6,
+        7,
+        "NEG",
+        "['waiter']"
+      ]
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 250,
+    "sentence": "we were seated outside and the waiter spilled red wine and hot tea on myself and my date"
+  },
+  {
+    "tokens": "['we', 'were', 'then', 'sho', '##oed', 'inside']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 251,
+    "sentence": "we were then shooed inside"
+  },
+  {
+    "tokens": "['you', 'ca', 'n', \"'\", 't', 'say', 'its', 'cheap', 'because', 'food', 'is', 'cheaper', 'in', 'chinatown']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 252,
+    "sentence": "you ca n't say its cheap because food is cheaper in chinatown"
+  },
+  {
+    "tokens": "['in', 'fact', ',', 'it', 'appears', 'he', 'is', 'going', 'to', 'go', 'postal', 'at', 'any', 'moment']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 253,
+    "sentence": "in fact , it appears he is going to go postal at any moment"
+  },
+  {
+    "tokens": "['20', 'for', 'all', 'you', 'can', 'eat', 'su', '##shi', 'can', 'not', 'be', 'beaten']",
+    "aspects": [
+      [
+        2,
+        8,
+        "POS",
+        "['all', 'you', 'can', 'eat', 'su', '##shi']"
+      ]
+    ],
+    "opinions": [
+      [
+        11,
+        12,
+        "['beaten']"
+      ]
+    ],
+    "ID": 254,
+    "sentence": "20 for all you can eat sushi can not be beaten"
+  },
+  {
+    "tokens": "['most', 'of', 'the', 'servers', 'are', 'very', 'at', '##ten', '##tive', ',', 'friendly', 'and', 'quite', 'attractive']",
+    "aspects": [
+      [
+        3,
+        4,
+        "POS",
+        "['servers']"
+      ]
+    ],
+    "opinions": [
+      [
+        6,
+        9,
+        "['at', '##ten', '##tive']"
+      ],
+      [
+        10,
+        11,
+        "['friendly']"
+      ],
+      [
+        13,
+        14,
+        "['attractive']"
+      ]
+    ],
+    "ID": 255,
+    "sentence": "most of the servers are very attentive , friendly and quite attractive"
+  },
+  {
+    "tokens": "['the', 'vibe', 'is', 'very', 'relaxed', 'and', 'cozy', ',', 'service', 'was', 'great', 'and', 'the', 'food', 'was', 'excellent', '!']",
+    "aspects": [
+      [
+        1,
+        2,
+        "POS",
+        "['vibe']"
+      ],
+      [
+        8,
+        9,
+        "POS",
+        "['service']"
+      ],
+      [
+        13,
+        14,
+        "POS",
+        "['food']"
+      ]
+    ],
+    "opinions": [
+      [
+        4,
+        5,
+        "['relaxed']"
+      ],
+      [
+        6,
+        7,
+        "['cozy']"
+      ],
+      [
+        10,
+        11,
+        "['great']"
+      ],
+      [
+        15,
+        16,
+        "['excellent']"
+      ]
+    ],
+    "ID": 256,
+    "sentence": "the vibe is very relaxed and cozy , service was great and the food was excellent !"
+  },
+  {
+    "tokens": "['hey', ',', 'i', 'think', '2', '+', 'for', 'a', '5', 'block', 'walk', 'ai', 'n', \"'\", 't', 'bad']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 257,
+    "sentence": "hey , i think 2+ for a 5 block walk ai n't bad"
+  },
+  {
+    "tokens": "['i', 'have', 'eaten', 'a', 'lot', 'of', 'pizza', 'here']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 258,
+    "sentence": "i have eaten a lot of pizza here"
+  },
+  {
+    "tokens": "['to', 'me', 'it', 'ex', '##em', '##pl', '##ifies', 'soho', ',', 'cute', ',', 'arts', '##y', ',', 'interesting']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 259,
+    "sentence": "to me it exemplifies soho , cute , artsy , interesting"
+  },
+  {
+    "tokens": "['the', 'mu', '##ssel', '##s', 'were', 'fantastic', 'and', 'so', 'was', 'the', 'dessert', 'definitely', 'going', 'to', 'be', 'back', 'very', 'soon']",
+    "aspects": [
+      [
+        1,
+        4,
+        "POS",
+        "['mu', '##ssel', '##s']"
+      ],
+      [
+        10,
+        11,
+        "POS",
+        "['dessert']"
+      ]
+    ],
+    "opinions": [
+      [
+        5,
+        6,
+        "['fantastic']"
+      ]
+    ],
+    "ID": 260,
+    "sentence": "the mussels were fantastic and so was the dessert definitely going to be back very soon"
+  },
+  {
+    "tokens": "['keep', 'up', 'the', 'good', 'work', 'guys', '!']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 261,
+    "sentence": "keep up the good work guys !"
+  },
+  {
+    "tokens": "['my', 'girl', '##fi', '##end', '##s', 'and', 'i', 'ate', 'at', 'o', '.', 'g', 'again', 'last', 'night']",
+    "aspects": [
+      []
+    ],
+    "opinions": [
+      {
+        "term": []
+      }
+    ],
+    "ID": 262,
+    "sentence": "my girlfiends and i ate at o.g again last night"
+  }
+]
