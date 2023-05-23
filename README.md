@@ -25,11 +25,11 @@
 
 基于对这些问题的探究，我们最终获得了一个强大的情感增强预训练模型。
 这个强大的情感增强预训练模型有两个版本，分别是[zhang-yice/spt-absa-bert-400k](https://huggingface.co/zhang-yice/spt-absa-bert-400k) 和 [zhang-yice/spt-absa-bert-10k](https://huggingface.co/zhang-yice/spt-absa-bert-10k)，它集成了三种类型的知识：
-- 方面词：掩盖方面的上下文并对其进行预测。
+- 方面词：掩码方面词的上下文并对其进行预测。
 - 评论的评分：评分预测。
-    - 句法知识：
-    - 词性标记，
-    - 依存方向，
+- 句法知识：
+    - 词性，
+    - 依存关系的方向，
     - 依存距离。
  
 ### Experimental Results
