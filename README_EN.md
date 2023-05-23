@@ -23,7 +23,7 @@ We mainly concentrate on the following questions:
 - (c) does injecting non-sentiment-specific linguistic knowledge (e.g., part-of-speech tags and syntactic relations) into pre-training have positive impacts?
 
 Based on the experimental investigation of these questions, we eventually obtain a powerful sentiment-enhanced pre-trained model.
-The powerful sentiment-enhanced pre-trained model is zhang-yice/spt-absa-bert-400k, which integrates three types of knowledge:
+The powerful sentiment-enhanced pre-trained model has two versions, namely [https://huggingface.co/zhang-yice/spt-absa-bert-400k](zhang-yice/spt-absa-bert-400k) and [https://huggingface.co/zhang-yice/spt-absa-bert-400k](zhang-yice/spt-absa-bert-10k), which integrates three types of knowledge:
 - aspect words: masking aspects' context and predicting them.
 - review's rating score: rating prediction.
 - syntax knowledge: 
