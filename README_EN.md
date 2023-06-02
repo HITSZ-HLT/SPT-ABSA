@@ -37,7 +37,7 @@ The powerful sentiment-enhanced pre-trained model has two versions, namely [http
 
 <img width="75%" alt="image" src="https://github.com/HITSZ-HLT/SPT-ABSA/assets/9134454/20c5a976-014e-433f-a2ec-4bb259e5a382">
 
-### Cite Us
+### Citation
 
     @inproceedings{zhang-etal-2023-spt-absa,  
         title = "An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis",  
