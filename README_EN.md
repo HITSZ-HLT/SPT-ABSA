@@ -37,3 +37,18 @@ The powerful sentiment-enhanced pre-trained model has two versions, namely [http
 
 <img width="75%" alt="image" src="https://github.com/HITSZ-HLT/SPT-ABSA/assets/9134454/20c5a976-014e-433f-a2ec-4bb259e5a382">
 
+### Cite Us
+
+    @inproceedings{zhang-etal-2023-spt-absa,  
+        title = "An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis",  
+        author = "Zhang, Yice  and  
+          Yang, yifan  and  
+          Liang, Bin  and  
+          Chen, Siwei  and  
+          Qin, Bing",  
+          booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",  
+          month = july,  
+          year = "2023",  
+          address = "Toronto, Canada",  
+          publisher = "Association for Computational Linguistics",  
+    }  
