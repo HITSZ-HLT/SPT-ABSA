@@ -32,7 +32,7 @@
     - 依存关系的方向，
     - 依存距离。
  
-### Experimental Results
+### 实验结果
 
 <img width="75%" alt="image" src="https://github.com/HITSZ-HLT/SPT-ABSA/assets/9134454/38fc2db0-6ccf-47a7-a93c-cf54667e1a23">
 
@@ -40,16 +40,16 @@
 
 ### 引用我们
 
-@inproceedings{zhang-etal-2023-spt-absa,
-    title = "An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis",
-    author = "Zhang, Yice  and
-      Yang, yifan  and
-      Liang, Bin  and
-      Chen, Siwei  and
-      Qin, Bing",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = july,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-}
+@inproceedings{zhang-etal-2023-spt-absa,  
+&emsp;&emsp;&emsp;&emsp;title = "An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis",  
+&emsp;&emsp;&emsp;&emsp;author = "Zhang, Yice  and  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Yang, yifan  and  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Liang, Bin  and  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Chen, Siwei  and  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Qin, Bing",  
+&emsp;&emsp;&emsp;&emsp;booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",  
+&emsp;&emsp;&emsp;&emsp;month = july,  
+&emsp;&emsp;&emsp;&emsp;year = "2023",  
+&emsp;&emsp;&emsp;&emsp;address = "Toronto, Canada",  
+&emsp;&emsp;&emsp;&emsp;publisher = "Association for Computational Linguistics",  
+}  
