@@ -4,7 +4,7 @@
 # SPT-ABSA
 
 This repository releases the code of the following paper:
-- Title: An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis
+- Title: [An Empirical Study of Sentiment-Enhanced Pre-Training for Aspect-Based Sentiment Analysis](https://aclanthology.org/2023.findings-acl.612/)
 - Authors: Yice Zhang, Yifan Yang, Bin Liang, Shiwei Chen, Bing Qin, and Ruifeng Xu
 - coference: ACL-2023 Finding (Long)
 
